@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class MatchDay extends Model
+class Matchday extends Model
 {
     protected $fillable = [
         'number',
@@ -19,6 +19,6 @@ class MatchDay extends Model
 
     public function games(): HasMany
     {
-        return $this->hasMany(Game::class, 'match_day_id');
+        return $this->hasMany(Game::class, 'matchday_id');
     }
 }

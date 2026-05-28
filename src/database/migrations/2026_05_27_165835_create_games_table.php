@@ -23,8 +23,8 @@ return new class extends Migration
                 ->constrained('teams')
                 ->cascadeOnDelete();
 
-            $table->foreignId('match_day_id')
-                ->constrained('match_days')
+            $table->foreignId('matchday_id')
+                ->constrained('matchdays')
                 ->cascadeOnDelete();
 
             $table->integer('home_goals')->nullable();
@@ -34,7 +34,7 @@ return new class extends Migration
             $table->timestamps();
 
             // evita duplicar el mismo partido
-            $table->unique(['home_team_id', 'away_team_id', 'match_day_id']);
+            $table->unique(['home_team_id', 'away_team_id', 'matchday_id']);
         });
     }
 

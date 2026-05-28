@@ -21,5 +21,15 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        $this->call([
+            CitySeeder::class,         // ciudades
+            TeamSeeder::class,         // Primero equipos
+            MatchdaySeeder::class,     // Luego jornadas
+            PlayerSeeder::class,       // Jugadores (necesitan equipos)
+            GoalkeeperSeeder::class,   // Porteros (necesitan jugadores)
+            ScorerSeeder::class,       // Goleadores (necesitan jugadores)
+            GameSeeder::class,         // Partidos (necesitan equipos y jornadas)
+        ]);
     }
 }

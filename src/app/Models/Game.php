@@ -10,7 +10,7 @@ class Game extends Model
     protected $fillable = [
         'home_team_id',
         'away_team_id',
-        'match_day_id',
+        'matchday_id',
         'home_goals',
         'away_goals',
         'home_possession',
@@ -19,7 +19,7 @@ class Game extends Model
     protected $casts = [
         'home_team_id' => 'integer',
         'away_team_id' => 'integer',
-        'match_day_id' => 'integer',
+        'matchday_id' => 'integer',
         'home_goals' => 'integer',
         'away_goals' => 'integer',
         'home_possession' => 'integer',
@@ -35,8 +35,8 @@ class Game extends Model
         return $this->belongsTo(Team::class, 'away_team_id');
     }
 
-    public function matchDay(): BelongsTo
+    public function matchday(): BelongsTo
     {
-        return $this->belongsTo(MatchDay::class);
+        return $this->belongsTo(Matchday::class);
     }
 }

@@ -1,4 +1,4 @@
--- Active: 1774887976769@@127.0.0.1@3306@test
+-- Active: 1774887976769@@127.0.0.1@3306@futbol
 -- Copyright Abdó Garcia Burguera - 2013
 
 -- DROP schema IF EXISTS `lliga1213` ;
