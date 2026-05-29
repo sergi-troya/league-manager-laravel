@@ -1,19 +1,23 @@
 @extends('_layout.app')
 @section('title', 'Home')
 @section('content')
-    <x-main-card
-        title="Jornada"
-        subtitle="Estadisticas"
-        mainNumber="38"
-        mainLabel="jornadas"
-        :items="[
-            ['value' => '300', 'label' => 'partidos jugados'],
-            ['value' => '80', 'label' => 'partidos'],
-            ['value' => '1004', 'label' => 'goles'],
-        ]"
-        route="/prueba"
-        buttonText="Detalles"/>
-    <x-main-card></x-main-card>
-    <x-main-card></x-main-card>
-
+    <div class="card-group">
+        <x-main-card title="Jornadas" 
+                    subtitle="Estadisticas" 
+                    mainNumber="{{ $data['matchday_count'] }}" 
+                    mainLabel="jornadas" 
+                    :items="[
+                        ['value' => $data ['games_completed'], 'label' => 'partidos jugados'],
+                        ['value' => $data ['games_pending'], 'label' => 'partidos pendientes'],
+                        ['value' => $data ['total_goals'], 'label' => 'goles'],
+                    ]"
+                    route="{{ $data['url']}}" buttonText="Detalles" />
+        <x-main-card title="Equipos" 
+                    subtitle="Estadisticas" 
+                    mainNumber="{{ $teams_data['teams_count'] }}" 
+                    mainLabel="equipos" 
+                    :items="{{ $teams_data ['top_teams']}}"
+                    route="{{ $teams_data['url']}}" buttonText="Detalles" />
+        <x-main-card></x-main-card>
+    </div>
 @endsection
