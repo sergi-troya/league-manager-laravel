@@ -2,8 +2,8 @@
 
 
 @section('content')
-    <h1>Mathcday Index</h1>
         <div class="container">
+            <h1>Matchday Index</h1>
                 <form action="{{ route('matchday.index')}}" method="GET" class="row d-flex align-items-end gap-3">
                     <div class="col">
                         <select name="matchday" id="matchday-select" type="form-select" aria-label="Default select example" class="form-select">

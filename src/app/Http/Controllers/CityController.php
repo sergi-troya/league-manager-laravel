@@ -1,0 +1,90 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\View\View;
+use App\Models\City;
+use Illuminate\Http\RedirectResponse;
+
+class CityController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     */
+    public function index() : View
+    {
+        $cities = City::orderBy('name', 'asc')->paginate(10);
+        return view('cities.index', compact('cities'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     */
+    public function create() : View
+    {
+        return view('cities.create');
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function store(Request $request) : RedirectResponse
+    {
+        $validatedData = $request->validate([
+            'code' => 'required|integer|unique:cities,code',
+            'name' => 'required|string|max:255',
+            'population' => 'nullable|integer|min:0'
+        ]);
+
+        City::create($validatedData);
+
+        return redirect()->route('cities.index')->with('success', 'City created successfully.');
+    }
+
+    /**
+     * Display the specified resource.
+     */
+    public function show(string $id) : View
+    {
+        $city = City::findOrFail($id);
+        return view('cities.show', compact('city'));
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(string $id) : View
+    {
+        $city = City::findOrFail($id);
+        return view('cities.edit', compact('city'));
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update(Request $request, string $id) : RedirectResponse
+    {
+        $city = City::findOrFail($id);
+
+        $validatedData = $request->validate([
+            'code' => 'required|integer|unique:cities,code,' . $city->id,
+            'name' => 'required|string|max:255',
+            'population' => 'nullable|integer|min:0'
+        ]);
+
+        $city->update($validatedData);
+
+        return redirect()->route('cities.index')->with('success', 'City updated successfully.');
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(City $city) : RedirectResponse
+    {
+        $city->delete();
+
+        return redirect()->route('cities.index')->with('success', 'City deleted successfully.');
+    }
+}
