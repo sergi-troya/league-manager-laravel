@@ -23,6 +23,11 @@ class Player extends Model
         'salary' => 'integer',
     ];
 
+    protected $guarded = [
+            'id',
+            'team',
+        ];  
+
     /**
      * Team relationship
      */

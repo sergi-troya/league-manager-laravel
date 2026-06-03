@@ -2,11 +2,15 @@
 
 
 @section('content')
-        <div class="container">
-            <h1>Matchday Index</h1>
-                <form action="{{ route('matchday.index')}}" method="GET" class="row d-flex align-items-end gap-3">
-                    <div class="col">
-                        <select name="matchday" id="matchday-select" type="form-select" aria-label="Default select example" class="form-select">
+        <div class="row align-items-center mb-4 g-3">
+            <div class="col-12 col-md-6">
+                <h1 class="h2 text-dark mb-0 fw-bold">Matchday Index</h1>
+                <p class="text-muted small mb-0">Resultados y programación por jornada</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <form action="{{ route('matchday.index')}}" method="GET" class="d-flex justify-content-md-end align-items-center gap-2">
+                    <div style="min-width: 250px">
+                        <select name="matchday" id="matchday-select" type="form-select" aria-label="Default select example" class="form-select border-secondary-subtle shadow-sm">
                             <option value="">Select Matchday</option>
                             @foreach ($matchdayData as $matchday)
                                 <option value="{{ $matchday->id}}" 
@@ -20,41 +24,50 @@
                             @endif
                         @endforeach
                         </select>
-                    </div>    
-                <div class="col">
-                    <button type="submit" class="btn btn-dark mt-3">View Matchday</button>
-                </div>
+                    </div>
+                    <button type="submit" class="btn btn-dark shadow-sm">View Matchday</button>
                 </form>
-                <div>
+            </div>
+                <div class="card shadow-sm  border-0 overflow-hidden">
+                    <div class="card-body p-0">
                     @if (isset($matchdayData))
-                        <table class="table mt-4">
-                            <thead>
+                        <table class="table table-hover table-striped align-middle mb-0">
+                            <thead class="table-dark text-uppercase fs-7 font-monospace">
                                 <tr>
-                                    <th scope="col">Home Team</th>
-                                    <th scope="col">Away Team</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Tools</th>
+                                    <th scope="col" class="ps-4" style="width: 35%">Home Team</th>
+                                    <th scope="col" class="text-center" style="width: 15%">Result</th>
+                                    <th scope="col" style="width: 30%">Away Team</th>
+                                    <th scope="col" class="pe-4 text-end" style="width: 20%">Tools</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach ($selectedMatchday->games as $game)
                                     <tr>
-                                        <td>{{ $game->homeTeam->short_name}}</td>
-                                        <td>{{ $game->awayTeam->short_name}}</td>
-                                        <td>{{ $game->home_goals ?? '-' }}</td>
-                                        <td>{{ $game->away_goals ?? '-' }}</td>
-                                        <td>
-                                            <a href="{{ route('matchday.game.edit', [$game->matchday_id, $game->id])}}" class="btn btn-primary me-3">Editar</a>
-                                            <a href="#" class="btn btn-danger me-3">Eliminar</a>
+                                        <td class="ps-4 fw-bold text-dark text-uppercase">{{ $game->homeTeam->short_name}}</td>
+                                        <td class="text-center">
+                                            <span class="badge bg-light text-dark border px-3 py-2 font-monospace fs-6 shadow-sm">
+                                            {{ $game->home_goals ?? '-' }} : {{ $game->away_goals ?? '-' }}   
+                                            </span>
+                                        </td>
+                                        <td class="fw-bold text-dark text-uppercase">{{ $game->awayTeam->short_name}}</td>
+                                        <td class="pe-4">
+                                            <div class="d-flex justify-content-end gap-2">
+                                                <a href="{{ route('matchday.game.edit', [$game->matchday_id, $game->id])}}" class="btn btn-sm btn-secondary px-3 shadow-sm">Editar</a>
+                                                <a href="#" class="btn btn-sm btn-danger px-3 shadow-sm">Eliminar</a>
+                                            </div>
                                         </td>
                                     </tr>
                                 @endforeach
                             </tbody>
                         </table>
-                        
                     @endif
+                    </div>
                 </div>
             
         </div>
 @endsection
+
+<style>
+    .text-warning-dominant { color: #856404 !important; }
+    .py-1.5 { padding-top: 0.35rem !important; padding-bottom: 0.35rem !important; }
+</style>

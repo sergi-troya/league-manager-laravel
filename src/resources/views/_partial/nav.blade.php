@@ -15,7 +15,7 @@
                     <a class="nav-link custom-nav-link" href="{{ route('cities.index')}}">Cities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link" href="#">Teams</a>
+                    <a class="nav-link custom-nav-link" href="{{ route('teams.index')}}">Teams</a>
                 </li>
             </ul>
         </div>

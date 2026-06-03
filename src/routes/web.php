@@ -3,6 +3,8 @@
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MatchdayController;
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\PlayerController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -23,3 +25,13 @@ Route::get('/cities/{city}', [CityController::class, 'show'])->name('cities.show
 Route::get('/cities/{city}/edit', [CityController::class, 'edit'])->name('cities.edit');
 Route::put('/cities/{city}', [CityController::class, 'update'])->name('cities.update');
 Route::delete('/cities/{city}', [CityController::class, 'destroy'])->name('cities.destroy');
+
+/* Rutas CRUD teams */
+
+Route::resource('teams', TeamController::class);
+
+/* Rutas CRUD players */    
+Route::prefix('teams/{team}')->group(function () {
+    Route::resource('/players', PlayerController::class);
+    // Otras rutas para players (create, store, show, edit, update, destroy)
+});
