@@ -12,6 +12,13 @@
             <i class="bi bi-plus-lg"></i> Nuevo Jugador
         </a>
     </div>
+    <div>
+        @if(session('success'))
+            <div class="alert alert-success" role="alert">
+                {{ session('success')}}
+            </div>
+        @endif
+    </div>
 
     <div class="card shadow-premium border-0 overflow-hidden bg-white">
         <div class="card-body p-0">
