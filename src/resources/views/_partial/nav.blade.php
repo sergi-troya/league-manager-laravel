@@ -1,49 +1,35 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3">
-    <div class="container-fluid px-4 d-flex align-items-center">
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav align-items-center gap-2">
+    <div class="container-fluid px-4">
+        <!-- Logo con retorno directo a la raíz -->
+        <a class="navbar-brand d-flex align-items-center" href="{{ route('home.index') }}">
+            <img src="{{ asset('img/laliga-logo.png') }}" alt="LaLiga" height="32" class="d-inline-block align-text-top">
+        </a>
+
+        <!-- Botón hamburguesa (ID corregido: mainNavbar) -->
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Contenedor colapsable con ID alineado -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-3">
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link" href="{{ route('home.index')}}">Home</a>
+                    <a class="nav-link fw-semibold {{ request()->routeIs('home*') ? 'active text-dark border-bottom border-2 border-dark' : 'text-secondary' }}" 
+                       href="{{ route('home.index') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link" href="{{ route('matchday.index')}}">Matchday</a>
+                    <a class="nav-link fw-semibold {{ request()->routeIs('matchday*') ? 'active text-dark border-bottom border-2 border-dark' : 'text-secondary' }}" 
+                       href="{{ route('matchday.index') }}">Matchday</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link" href="#">Players</a>
+                    <a class="nav-link fw-semibold {{ request()->routeIs('cities*') ? 'active text-dark border-bottom border-2 border-dark' : 'text-secondary' }}" 
+                       href="{{ route('cities.index') }}">Cities</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link" href="{{ route('cities.index')}}">Cities</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link custom-nav-link" href="{{ route('teams.index')}}">Teams</a>
+                    <a class="nav-link fw-semibold {{ request()->routeIs('teams*') ? 'active text-dark border-bottom border-2 border-dark' : 'text-secondary' }}" 
+                       href="{{ route('teams.index') }}">Teams</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-
-<style>
-    .custom-nav-link {
-        font-size: 1.1rem;
-        padding: 0.5rem 1rem !important;
-        transition: color 0.25s ease-in-out;
-        position: relative;
-    }
-
-    /* Efecto al pasar el ratón por encima si no está activo */
-    .custom-nav-link:hover:not(.active) {
-        color: #000000 !important;
-    }
-
-    /* Línea estética inferior opcional para el enlace que está activo */
-    .custom-nav-link.active::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 1rem;
-        right: 1rem;
-        height: 2px;
-        background-color: #000000; /* El color oscuro que predomina en tu diseño */
-        border-radius: 2px;
-    }
-</style>

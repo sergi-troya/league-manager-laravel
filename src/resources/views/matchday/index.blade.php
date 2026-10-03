@@ -67,7 +67,3 @@
         </div>
 @endsection
 
-<style>
-    .text-warning-dominant { color: #856404 !important; }
-    .py-1.5 { padding-top: 0.35rem !important; padding-bottom: 0.35rem !important; }
-</style>

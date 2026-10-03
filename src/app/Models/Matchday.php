@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use App\Models\Game;
 
 class Matchday extends Model
 {
@@ -22,18 +23,20 @@ class Matchday extends Model
         return $this->hasMany(Game::class, 'matchday_id');
     }
 
-    static public function dashboard() {
-        $num_jornadas = Matchday::count();
-        $partidos_finalizados = Game::whereNotNull('home_goals')->count();
-        $partidos_no_finalizados = Game::whereNull('home_goals')->count();
-        $goles = Game::whereNotNull('home_goals')->sum('home_goals') +
-                 Game::whereNotNull('away_goals')->sum('away_goals');
+    public static function dashboard(): array
+    {
+        $gameStats = Game::selectRaw('
+            COUNT(CASE WHEN home_goals IS NOT NULL THEN 1 END) as games_completed,
+            COUNT(CASE WHEN home_goals IS NULL THEN 1 END) as games_pending,
+            COALESCE(SUM(home_goals), 0) + COALESCE(SUM(away_goals), 0) as total_goals
+        ')->first();
+        
         return [
-            'matchday_count' => $num_jornadas,
-            'games_completed' => $partidos_finalizados,
-            'games_pending' => $partidos_no_finalizados,
-            'total_goals' => $goles,
-            'url' => '#'
+            'matchday_count'  => self::count(),
+            'games_completed' => (int) ($gameStats->games_completed ?? 0),
+            'games_pending'   => (int) ($gameStats->games_pending ?? 0),
+            'total_goals'     => (int) ($gameStats->total_goals ?? 0),
+            'url'             => route('matchday.index'),
         ];
     }
 }

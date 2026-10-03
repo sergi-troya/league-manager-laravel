@@ -47,4 +47,23 @@ class Scorer extends Model
     {
         return $this->belongsTo(Player::class);
     }
+    
+    public static function dashboard(): array
+    {
+        $topScorers = self::with('player')
+            ->orderByDesc('goals')
+            ->take(3)
+            ->get()
+            ->map(fn ($scorer) => [
+                'value' => $scorer->goals,
+                'label' => $scorer->player->name ?? 'Jugador no asignado',
+            ])
+            ->toArray();
+
+        return [
+            'top_scorers' => $topScorers,
+            'url' => route('scorers.index'),
+        ];    
+    }
+
 }

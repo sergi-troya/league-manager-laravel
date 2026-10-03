@@ -3,13 +3,6 @@
 @section('title', 'Home')
 
 @section('content')
-    @php
-        $goleadores = [
-            ['value' => 24, 'label' => 'Leo Messi'],
-            ['value' => 19, 'label' => 'Cristiano Ronaldo'],
-            ['value' => 15, 'label' => 'Falcao'],
-        ];
-    @endphp
     <div class="mb-5 text-start">
         <h1 class="fw-extrabold text-dark display-6 mb-1" style="font-weight: 800; letter-spacing: -1px;">Dashboard General</h1>
         <p class="text-muted text-uppercase small font-monospace tracking-wider" style="letter-spacing: 0.5px;">
@@ -48,11 +41,11 @@
         <div class="col-12 col-md-6 col-lg-4">
             <x-main-card
                 title="Goleadores" 
-                subtitle="Máximos realizadores" 
+                subtitle="Máximos goleadores" 
                 :main-number="3" 
                 main-label="En el podio" 
-                :items="$goleadores"
-                route="#" 
+                :items="$scorers_data['top_scorers']"
+                :route="$scorers_data['url']" 
                 button-text="Detalles"
             />   
         </div>

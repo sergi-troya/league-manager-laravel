@@ -5,33 +5,24 @@ use App\Http\Controllers\MatchdayController;
 use App\Http\Controllers\CityController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\PlayerController;
+use App\Http\Controllers\ScorerController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home.index');
-});
-
-
+//Ruta principal (Dashboard)
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
+Route::get('scorers', [ScorerController::class, 'index'])->name('scorers.index');
+
+// Jornada y gestión de partidos
 Route::get('/matchday', [MatchdayController::class, 'index'])->name('matchday.index');
 Route::get('/matchday/{matchday}/game/{game}/edit', [MatchdayController::class, 'editGame'])->name('matchday.game.edit');
 Route::post('/matchday/{matchday}/game/{game}/update', [MatchdayController::class, 'updateGame'])->name('matchday.game.update');
 
-/* Rutas CRUD cities */
-Route::get('/cities', [CityController::class, 'index'])->name('cities.index');
-Route::get('/cities/create', [CityController::class, 'create'])->name('cities.create');
-Route::post('/cities', [CityController::class, 'store'])->name('cities.store');
-Route::get('/cities/{city}', [CityController::class, 'show'])->name('cities.show');
-Route::get('/cities/{city}/edit', [CityController::class, 'edit'])->name('cities.edit');
-Route::put('/cities/{city}', [CityController::class, 'update'])->name('cities.update');
-Route::delete('/cities/{city}', [CityController::class, 'destroy'])->name('cities.destroy');
-
-/* Rutas CRUD teams */
-
+//Recursos CRUD estándar
+Route::resource('cities', CityController::class);
 Route::resource('teams', TeamController::class);
 
-/* Rutas CRUD players */    
+//Recursos anidados para jugadores dependientes de un equipo     
 Route::prefix('teams/{team}')->group(function () {
     Route::resource('/players', PlayerController::class);
-    // Otras rutas para players (create, store, show, edit, update, destroy)
 });

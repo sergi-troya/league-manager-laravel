@@ -27,7 +27,7 @@ class ScorerSeeder extends Seeder
             
             if (!$player) {
                 $skipped++;
-                $this->command->warn("Jugador no encontrado para golejador: Equipo '{golejador->equip}', Dorsal {$golejador->dorsal}");
+                $this->command->warn("Jugador no encontrado para golejador: Equipo '{$golejador->equip}', Dorsal {$golejador->dorsal}");
                 continue;
             }
 

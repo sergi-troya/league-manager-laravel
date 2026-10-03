@@ -59,39 +59,8 @@
                     </div>
                 @endif
             </div>
-            <div class="mt-3">
+            <div class="p-3 d-flex justify-content-center">
                 {{ $cities->links('pagination::bootstrap-5') }}
-            </div>
-            <!-- Bloque Izquierdo: Ir al Inicio y Anterior -->
-            <div class="btn-group" role="group" aria-label="Navegación Izquierda">
-                <!-- Primera Página -->
-                <a class="btn btn-light border {{ $cities->onFirstPage() ? 'disabled' : '' }}" href="{{ $cities->url(1) }}"
-                    title="Primera página">
-                    « First
-                </a>
-                <!-- Página Anterior -->
-                <a class="btn btn-light border {{ $cities->onFirstPage() ? 'disabled' : '' }}"
-                    href="{{ $cities->onFirstPage() ? '#' : $cities->previousPageUrl() }}">
-                    < Previous </a>
-            </div>
-
-            <!-- Opcional: Texto informativo central -->
-            <small class="text-muted">
-                Página {{ $cities->currentPage() }} de {{ $cities->lastPage() }}
-            </small>
-
-            <!-- Bloque Derecho: Siguiente y Última Página -->
-            <div class="btn-group" role="group" aria-label="Navegación Derecha">
-                <!-- Página Siguiente -->
-                <a class="btn btn-light border {{ !$cities->hasMorePages() ? 'disabled' : '' }}"
-                    href="{{ !$cities->hasMorePages() ? '#' : $cities->nextPageUrl() }}">
-                    Next >
-                </a>
-                <!-- Última Página -->
-                <a class="btn btn-light border {{ !$cities->hasMorePages() ? 'disabled' : '' }}"
-                    href="{{ $cities->url($cities->lastPage()) }}" title="Última página">
-                    Last »
-                </a>
             </div>
         </div>
     </div>

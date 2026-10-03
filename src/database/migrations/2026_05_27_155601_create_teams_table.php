@@ -25,7 +25,7 @@ return new class extends Migration
             $table->foreignId('city_id')->nullable()->constrained('cities');
             
             // 5. Altres camps de text i configuració original
-            $table->string('coach', 30)->nullable();
+            $table->string('coach', 255)->nullable();
             $table->string('stadium', 30)->nullable();
             $table->string('brand', 30)->nullable();
             $table->string('sponsor', 30)->nullable();

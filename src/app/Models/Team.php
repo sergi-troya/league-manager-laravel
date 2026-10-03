@@ -57,39 +57,26 @@ class Team extends Model
 
     static public function dashboard(): array
     {
-        $sql = "select id, short_name as label,
-                (select count(*) from games g where g.home_team_id = t.id and g.home_goals > g.away_goals) * 3 +
-                (select count(*) from games g where g.away_team_id = t.id and g.away_goals > g.home_goals) * 3 +
-                (select count(*) from games g where (g.home_team_id = t.id or g.away_team_id = t.id) and g.away_goals = g.home_goals)
-                 as value
-                from teams t 
-                order by value DESC 
-                LIMIT 3;";
+        $sql = "SELECT id, short_name AS label,
+                (SELECT COUNT(*) FROM games g WHERE g.home_team_id = t.id AND g.home_goals > g.away_goals) * 3 +
+                (SELECT COUNT(*) FROM games g WHERE g.away_team_id = t.id AND g.away_goals > g.home_goals) * 3 +
+                (SELECT COUNT(*) FROM games g WHERE (g.home_team_id = t.id OR g.away_team_id = t.id) AND g.away_goals = g.home_goals)
+                AS value
+                FROM teams t 
+                ORDER BY value DESC 
+                LIMIT 3";
 
-        /* $topTeams = collect(DB::select($sql))
-            ->map(function ($team) {
-                return [
-                    'value' => $team->value,
-                    'label' => $team->label,
-                ];
-            })
-            ->toArray(); */
-
-        $resultado = DB::select($sql);
-
-        $topTeams = [];
-
-        foreach ($resultado as $team) {
-            $topTeams[] = [
-                'value' => $team->value,
+        $topTeams = array_map(function ($team) {
+            return [
+                'value' => (int) $team->value,
                 'label' => $team->label,
             ];
-        }
+        }, DB::select($sql));
 
         return [
             'teams_count' => self::count(),
             'top_teams' => $topTeams,
-            'url' => '#',
+            'url' => route('teams.index'),
         ];
     }
 }

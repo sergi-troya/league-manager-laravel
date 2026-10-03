@@ -1,0 +1,35 @@
+/* Grosor ultra-fuerte para los números */
+.fw-black { 
+    font-weight: 900 !important; 
+}
+
+/* Sombreado premium multicapa para bordes limpios y ambientales */
+.shadow-premium {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02), 
+                0 10px 20px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Comportamiento dinámico al pasar el cursor */
+.transition-card {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), 
+                box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-card:hover {
+    transform: translateY(-5px);
+    /* Al elevarse, la sombra se suaviza y se expande */
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Botón interactivo */
+.custom-btn-effect {
+    transition: all 0.2s ease-in-out;
+}
+.custom-btn-effect:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.text-warning-dominant { color: #856404 !important; }
+.py-1.5 { padding-top: 0.35rem !important; padding-bottom: 0.35rem !important; }

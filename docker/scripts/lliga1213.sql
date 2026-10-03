@@ -7,6 +7,10 @@ CREATE SCHEMA IF NOT EXISTS `futbol` DEFAULT CHARACTER SET latin1 ;
 
 USE `futbol` ;
 
+SET NAMES utf8mb4;
+
+SET FOREIGN_KEY_CHECKS = 0;
+
 -- -----------------------------------------------------
 -- Table `ciutats`
 -- -----------------------------------------------------
@@ -28,11 +32,11 @@ DROP TABLE IF EXISTS `equips` ;
 
 CREATE  TABLE IF NOT EXISTS `equips` (
   `codi` VARCHAR(3) NOT NULL ,
-  `nomcurt` VARCHAR(20) NULL DEFAULT NULL ,
-  `nomllarg` VARCHAR(40) NULL DEFAULT NULL ,
+  `nomcurt` VARCHAR(50) NULL DEFAULT NULL ,
+  `nomllarg` VARCHAR(100) NULL DEFAULT NULL ,
   `ciutat` INT(11) NULL DEFAULT NULL ,
-  `entrenador` VARCHAR(30) NULL DEFAULT NULL ,
-  `estadi` VARCHAR(30) NULL DEFAULT NULL ,
+  `entrenador` VARCHAR(100) NULL DEFAULT NULL ,
+  `estadi` VARCHAR(100) NULL DEFAULT NULL ,
   `marca` VARCHAR(30) NULL DEFAULT NULL ,
   `patrocinador` VARCHAR(30) NULL DEFAULT NULL ,
   `pressupost` INT(11) NULL DEFAULT NULL ,
@@ -53,7 +57,7 @@ DROP TABLE IF EXISTS `jugadors` ;
 CREATE  TABLE IF NOT EXISTS `jugadors` (
   `equip` VARCHAR(3) NOT NULL DEFAULT '' ,
   `dorsal` INT(11) NOT NULL DEFAULT '0' ,
-  `nom` VARCHAR(30) NOT NULL ,
+  `nom` VARCHAR(100) NOT NULL ,
   `lloc` VARCHAR(10) NULL DEFAULT NULL ,
   `sou` INT(11) NULL DEFAULT NULL ,
   PRIMARY KEY (`equip`, `dorsal`) ,
@@ -1524,3 +1528,4 @@ INSERT INTO `partits` (`equipc`,`equipf`,`jornada`,`golsc`,`golsf`,`possessioc`)
 INSERT INTO `partits` (`equipc`,`equipf`,`jornada`,`golsc`,`golsf`,`possessioc`) VALUES ('zar','vad',1,0,1,61);
 INSERT INTO `partits` (`equipc`,`equipf`,`jornada`,`golsc`,`golsf`,`possessioc`) VALUES ('zar','val',25,2,2,50);
 
+SET FOREIGN_KEY_CHECKS = 1;
