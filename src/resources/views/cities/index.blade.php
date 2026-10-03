@@ -1,6 +1,6 @@
 @extends('_layout.app')
 
-
+@section('title', 'Ciudades')
 @section('content')
     <div class="container mt5">
         <div class="d-flex justify-content-between align-items-center mb-4">

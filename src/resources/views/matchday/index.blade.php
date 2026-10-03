@@ -1,6 +1,6 @@
 @extends('_layout.app')
 
-
+@section('title', 'Jornadas')
 @section('content')
         <div class="row align-items-center mb-4 g-3">
             <div class="col-12 col-md-6">
@@ -9,7 +9,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <form action="{{ route('matchday.index')}}" method="GET" class="d-flex justify-content-md-end align-items-center gap-2">
-                    <div style="min-width: 250px">
+                    <div class="min-w-select">
                         <select name="matchday" id="matchday-select" type="form-select" aria-label="Default select example" class="form-select border-secondary-subtle shadow-sm">
                             <option value="">Select Matchday</option>
                             @foreach ($matchdayData as $matchday)

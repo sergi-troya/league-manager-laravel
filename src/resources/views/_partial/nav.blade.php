@@ -1,9 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3">
     <div class="container-fluid px-4">
-        <!-- Logo con retorno directo a la raíz -->
-        <a class="navbar-brand d-flex align-items-center" href="{{ route('home.index') }}">
-            <img src="{{ asset('img/laliga-logo.png') }}" alt="LaLiga" height="32" class="d-inline-block align-text-top">
-        </a>
 
         <!-- Botón hamburguesa (ID corregido: mainNavbar) -->
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,11 +1,11 @@
 @extends('_layout.app')
 
-@section('title', 'Home')
+@section('title', 'Dashboard')
 
 @section('content')
     <div class="mb-5 text-start">
         <h1 class="fw-extrabold text-dark display-6 mb-1" style="font-weight: 800; letter-spacing: -1px;">Dashboard General</h1>
-        <p class="text-muted text-uppercase small font-monospace tracking-wider" style="letter-spacing: 0.5px;">
+        <p class="text-muted text-uppercase small font-monospace tracking-wider">
             Temporada Oficial de LaLiga | Estadísticas en vivo
         </p>
     </div>
