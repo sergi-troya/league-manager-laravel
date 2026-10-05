@@ -17,19 +17,29 @@ class MatchdayController extends Controller
     }
 
     public function editGame(Request $request, Matchday $matchday, Game $game) : View {
+        abort_unless((int) $game->matchday_id === (int) $matchday->id, 404);
+        $game->load(['homeTeam', 'awayTeam']);
         return view('game.edit', compact('matchday', 'game'));
     }
 
     public function updateGame(Request $request, Matchday $matchday, Game $game): RedirectResponse {
+        abort_unless((int) $game->matchday_id === (int) $matchday->id, 404);
+
         $validatedData = $request->validate([
-            'home_goals' => 'required|string|min:0',
-            'away_goals' => 'required|string|max:255',
-            'home_team_id' => 'required|exists:teams,id',
-            'away_team_id' => 'required|exists:teams,id|different:home_team_id',
+            'home_goals' => 'required|integer|min:0|max:2147483647',
+            'away_goals' => 'required|integer|min:0|max:2147483647',
+            'home_team_id' => 'prohibited',
+            'away_team_id' => 'prohibited',
+            'matchday_id' => 'prohibited',
         ]);
 
-        $game->update($validatedData);
+        $game->update([
+            'home_goals' => $validatedData['home_goals'],
+            'away_goals' => $validatedData['away_goals'],
+        ]);
 
-        return redirect()->route('matchday.index', ['matchday' => $matchday->id])->with('success', 'Game updated successfully.');
+        return redirect()
+            ->route('matchday.index', ['matchday' => $matchday->id])
+            ->with('success', 'Game updated successfully.');
     }
 }

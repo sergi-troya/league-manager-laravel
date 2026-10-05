@@ -33,8 +33,8 @@ class CityController extends Controller
     {
         $validatedData = $request->validate([
             'code' => 'required|integer|unique:cities,code',
-            'name' => 'required|string|max:255',
-            'population' => 'nullable|integer|min:0'
+            'name' => 'required|string|max:30',
+            'population' => 'nullable|integer|min:0|max:2147483647'
         ]);
 
         City::create($validatedData);
@@ -69,8 +69,8 @@ class CityController extends Controller
 
         $validatedData = $request->validate([
             'code' => 'required|integer|unique:cities,code,' . $city->id,
-            'name' => 'required|string|max:255',
-            'population' => 'nullable|integer|min:0'
+            'name' => 'required|string|max:30',
+            'population' => 'nullable|integer|min:0|max:2147483647'
         ]);
 
         $city->update($validatedData);

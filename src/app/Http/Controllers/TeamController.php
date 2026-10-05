@@ -7,6 +7,7 @@ use App\Models\Team;
 use Illuminate\View\View;
 use App\Models\City;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Validation\Rule;
 class TeamController extends Controller
 {
     /**
@@ -34,14 +35,14 @@ class TeamController extends Controller
     {
         $validatedData = $request->validate([
             'code' => 'required|string|max:3|unique:teams',
-            'short_name' => 'required|string|max:50',
-            'full_name' => 'required|string|max:255',
+            'short_name' => 'required|string|max:20',
+            'full_name' => 'required|string|max:40',
             'city_id' => 'required|integer|exists:cities,id',
             'coach' => 'nullable|string|max:255',
-            'stadium' => 'nullable|string|max:255',
-            'brand' => 'nullable|string|max:255',
-            'sponsor' => 'nullable|string|max:255',
-            'budget' => 'nullable|integer|min:0',
+            'stadium' => 'nullable|string|max:30',
+            'brand' => 'nullable|string|max:30',
+            'sponsor' => 'nullable|string|max:30',
+            'budget' => 'nullable|integer|min:0|max:2147483647',
         ]);
 
         Team::create($validatedData);
@@ -76,20 +77,27 @@ class TeamController extends Controller
         $team = Team::findOrFail($id);
 
         $validatedData = $request->validate([
-            'code' => 'required|string|max:3|unique:teams,code,' . $team->id,
-            'short_name' => 'required|string|max:50',
-            'full_name' => 'required|string|max:255',
+            'code' => [
+                'required',
+                'string',
+                'max:3',
+                Rule::unique('teams', 'code')->ignore($team),
+            ],
+            'short_name' => 'required|string|max:20',
+            'full_name' => 'required|string|max:40',
             'city_id' => 'required|integer|exists:cities,id',
             'coach' => 'nullable|string|max:255',
-            'stadium' => 'nullable|string|max:255',
-            'brand' => 'nullable|string|max:255',
-            'sponsor' => 'nullable|string|max:255',
-            'budget' => 'nullable|integer|min:0',
+            'stadium' => 'nullable|string|max:30',
+            'brand' => 'nullable|string|max:30',
+            'sponsor' => 'nullable|string|max:30',
+            'budget' => 'nullable|integer|min:0|max:2147483647',
         ]);
 
         $team->update($validatedData);
 
-        return redirect()->route('teams.index')->with('success', 'Team updated successfully.');
+        return redirect()
+            ->route('teams.index')
+            ->with('success', 'Team updated successfully.');
     }
 
     /**

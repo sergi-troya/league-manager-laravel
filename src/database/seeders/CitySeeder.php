@@ -2,44 +2,22 @@
 
 namespace Database\Seeders;
 
+use App\Models\City;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class CitySeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
+    public function run(): void
     {
-        // Obtener los datos de la tabla antigua
-        $oldCities = DB::table('ciutats')->get();
+        $cities = [
+            ['code' => '1001', 'name' => 'Ciudad Alfa', 'population' => 100000],
+            ['code' => '1002', 'name' => 'Ciudad Beta', 'population' => 120000],
+            ['code' => '1003', 'name' => 'Ciudad Gamma', 'population' => 80000],
+            ['code' => '1004', 'name' => 'Ciudad Delta', 'population' => 90000],
+        ];
 
-        // Preparar los datos para la nueva tabla
-        $newCities = [];
-        
-        foreach ($oldCities as $oldCity) {
-            $newCities[] = [
-                'code' => $oldCity->codi,
-                'name' => $oldCity->nom,
-                'population' => $oldCity->habitants,
-                'created_at' => now(),
-                'updated_at' => now(),
-            ];
-        }
-
-        // Insertar los datos en la nueva tabla
-        if (!empty($newCities)) {
-            DB::table('cities')->insert($newCities);
-            
-            $this->command->info(sprintf(
-                'Migradas %d ciudades de "ciutats" a "cities"',
-                count($newCities)
-            ));
-        } else {
-            $this->command->warn('No se encontraron ciudades para migrar');
+        foreach ($cities as $city) {
+            City::updateOrCreate(['code' => $city['code']], $city);
         }
     }
 }

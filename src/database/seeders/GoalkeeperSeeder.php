@@ -3,48 +3,24 @@
 namespace Database\Seeders;
 
 use App\Models\Goalkeeper;
-use App\Models\Player;
+use App\Models\Team;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class GoalkeeperSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        // Primero, obtener todos los porteros de la tabla antigua
-        $porters = DB::table('porters')->get();
-        
-        $count = 0;
-        $skipped = 0;
+        // Goles recibidos en los dos partidos jugados de cada equipo.
+        foreach (['ALF' => 1, 'BET' => 4, 'GAM' => 1, 'DEL' => 0] as $code => $goals) {
+            $team = Team::where('code', $code)->firstOrFail();
+            $player = $team->players()->where('number', 1)->firstOrFail();
 
-        foreach ($porters as $porter) {
-            // Buscar el jugador correspondiente en la nueva tabla players
-            // usando team (equip) y number (dorsal)
-            $player=Player::where('team', $porter->equip)
-                          ->where('number', $porter->dorsal)
-                          ->first();
-            
-            if (!$player) {
-                $skipped++;
-                $this->command->warn("Jugador no encontrado para portero: Equipo {$porter->equip}, Dorsal {$porter->dorsal}");
-                continue;
-            }
-
-            // Crear el registro en goalkeepers
-            Goalkeeper::create([
-                'team' => $porter->equip,
-                'number' => $porter->dorsal,
-                'player_id' => $player->id,
-                'matches' => $porter->partits,
-                'goals' => $porter->gols,
+            Goalkeeper::updateOrCreate(['player_id' => $player->id], [
+                'team' => $team->code,
+                'number' => $player->number,
+                'matches' => 2,
+                'goals' => $goals,
             ]);
-
-            $count++;
         }
-
-        $this->command->info("Migración de porteros completada: $count porteros migrados, $skipped saltados.");
     }
 }

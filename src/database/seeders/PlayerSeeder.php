@@ -5,41 +5,30 @@ namespace Database\Seeders;
 use App\Models\Player;
 use App\Models\Team;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class PlayerSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        $jugadors = DB::table('jugadors')->get();
-        $count = 0;
-        $skipped = 0;
+        foreach (['ALF', 'BET', 'GAM', 'DEL'] as $code) {
+            $team = Team::where('code', $code)->firstOrFail();
 
-        foreach ($jugadors as $jugador ) {
-            // Verificar si existe el equipo
-            $team=Team::where('code',$jugador->equip)->first();
-            
-            if (!$team) {
-                $skipped++;
-                $this->command->warn("Equipo $jugador->equip no encontrado para jugador: {$jugador->nom}");
-                continue;
+            $players = [
+                ['number' => 1, 'name' => 'Portero ' . $team->short_name, 'position' => 'Portero'],
+                ['number' => 9, 'name' => 'Delantero ' . $team->short_name, 'position' => 'Delantero'],
+            ];
+
+            foreach ($players as $player) {
+                Player::updateOrCreate([
+                    'team_id' => $team->id,
+                    'number' => $player['number'],
+                ], [
+                    'team' => $team->code,
+                    'name' => $player['name'],
+                    'position' => $player['position'],
+                    'salary' => 100000,
+                ]);
             }
-
-            Player::create([
-                'team_id' => $team->id,
-                'team' => $jugador->equip,
-                'number' => $jugador->dorsal,
-                'name' => $jugador->nom,
-                'position' => $jugador->lloc,
-                'salary' => $jugador->sou,
-            ]);
-
-            $count++;
         }
-
-       $this->command->info("Migración completada: $count jugadores migrados, $skipped saltados.");
     }
 }

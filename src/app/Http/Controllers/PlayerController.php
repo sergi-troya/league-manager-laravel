@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Team;
 use Illuminate\View\View;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Validation\Rule;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Database\UniqueConstraintViolationException;
 
 class PlayerController extends Controller
 {
@@ -29,17 +33,33 @@ class PlayerController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request, Team $team)
+    public function store(Request $request, Team $team): RedirectResponse
     {
         $validatedData = $request->validate([
-            'number' => 'required|integer',
-            'name' => 'required|string|max:255',
-            'position' => 'required|string|max:255',
+            'number' => [
+                'bail',
+                'required',
+                'integer',
+                'min:0',
+                'max:2147483647',
+                Rule::unique('players', 'number')
+                    ->where('team_id', $team->id),
+            ],
+            'name' => 'required|string|max:30',
+            'position' => 'required|string|max:10',
         ]);
 
-        $team->players()->create($validatedData);
+        try {
+            $team->players()->create($validatedData);
+        } catch (UniqueConstraintViolationException $exception) {
+            throw ValidationException::withMessages([
+                'number' => 'Este dorsal ya está asignado a otro jugador del equipo.',
+            ]);
+        }
 
-        return redirect()->route('players.index', $team)->with('success', 'Player created successfully.');
+        return redirect()
+            ->route('players.index', $team)
+            ->with('success', 'Player created successfully.');
     }
 
     /**
@@ -69,14 +89,31 @@ class PlayerController extends Controller
         $player = $team->players()->findOrFail($id);
 
         $validatedData = $request->validate([
-            'number' => 'required|integer',
-            'name' => 'required|string|max:255',
-            'position' => 'required|string|max:255',
+            'number' => [
+            'bail',
+            'required',
+            'integer',
+            'min:0',
+            'max:2147483647',
+            Rule::unique('players', 'number')
+                ->where('team_id', $team->id)
+                ->ignore($player),
+            ],
+            'name' => 'required|string|max:30',
+            'position' => 'required|string|max:10',
         ]);
 
-        $player->update($validatedData);
+       try {
+            $player->update($validatedData);
+        } catch (UniqueConstraintViolationException $exception) {
+            throw ValidationException::withMessages([
+                'number' => 'Este dorsal ya está asignado a otro jugador del equipo.',
+            ]);
+        }
 
-        return redirect()->route('players.index', $team)->with('success', 'Player updated successfully.');
+        return redirect()
+            ->route('players.index', $team)
+            ->with('success', 'Player updated successfully.');
     }
 
     /**

@@ -1,31 +1,66 @@
 @extends('_layout.app')
-@section ('content')
+
+@section('title', 'Editar partido')
+@section('content')
     <div class="container">
-        <h1>Game Edit:</h1>
-        <form action="{{ route('matchday.game.update', [$game->matchday_id, $game->id])}}" method="POST">
+        <h1>Editar partido</h1>
+
+        <form action="{{ route('matchday.game.update', ['matchday' => $matchday, 'game' => $game]) }}" method="POST">
             @csrf
-            <input type="text" hidden name="home_team_id" value="{{ $game->home_team_id}}">
-            <input type="text" hidden name="away_team_id" value="{{ $game->away_team_id}}">
+
+            <p><strong>Local:</strong> {{ $game->homeTeam->short_name }}</p>
+            <p><strong>Visitante:</strong> {{ $game->awayTeam->short_name }}</p>
+
+            @if ($errors->any())
+                <div class="alert alert-danger" role="alert">
+                    <ul class="mb-0">
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
             <div class="mb-3">
-                <label for="HomeTeam" class="form-label">Home Team</label>
-                <input type="text" class="form-control" id="HomeTeam" value="{{ $game->homeTeam->short_name}}" name="homeTeam" disabled>
+                <label for="home_goals" class="form-label">Goles local</label>
+                <input
+                    type="number"
+                    id="home_goals"
+                    name="home_goals"
+                    class="form-control @error('home_goals') is-invalid @enderror"
+                    value="{{ old('home_goals', $game->home_goals) }}"
+                    min="0"
+                    max="2147483647"
+                    step="1"
+                    required
+                >
+                @error('home_goals')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
             </div>
+
             <div class="mb-3">
-                <label for="AwayTeam" class="form-label">Away Team</label>
-                <input type="text" class="form-control" id="AwayTeam" value="{{ $game->awayTeam->short_name}}" name="awayTeam" disabled>
+                <label for="away_goals" class="form-label">Goles visitante</label>
+                <input
+                    type="number"
+                    id="away_goals"
+                    name="away_goals"
+                    class="form-control @error('away_goals') is-invalid @enderror"
+                    value="{{ old('away_goals', $game->away_goals) }}"
+                    min="0"
+                    max="2147483647"
+                    step="1"
+                    required
+                >
+                @error('away_goals')
+                    <div class="invalid-feedback">{{ $message }}</div>
+                @enderror
             </div>
-            <div class="mb-3">
-                <label for="home_goals" class="form-label">Home Goals</label>
-                <input type="text" class="form-control" id="home_goals" value="{{ $game->home_goals}}" name="home_goals" min="0" max="10" required>
-            </div>
-            <div class="mb-3">
-                <label for="home_goals" class="form-label">Away Goals</label>
-                <input type="text" class="form-control" id="away_goals" value="{{ $game->away_goals}}" name="away_goals" min="0" max="10" required>
-            </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary">Send</button>
-                    <a class="btn btn-secondary" href="{{ route('matchday.index', $matchday->id)}}">Return</a>
-            </div>
+
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a class="btn btn-secondary" href="{{ route('matchday.index', ['matchday' => $matchday->id]) }}">
+                Volver
+            </a>
         </form>
     </div>
 @endsection
