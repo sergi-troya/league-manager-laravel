@@ -42,7 +42,7 @@
             <x-main-card
                 title="Goleadores" 
                 subtitle="Máximos goleadores" 
-                :main-number="3" 
+                :main-number="count($scorers_data['top_scorers'])" 
                 main-label="En el podio" 
                 :items="$scorers_data['top_scorers']"
                 :route="$scorers_data['url']" 

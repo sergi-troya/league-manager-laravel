@@ -5,36 +5,24 @@ services:
       context: .
       dockerfile: docker/php/Dockerfile
     working_dir: /var/www/html
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
     volumes:
       - ./src:/var/www/html
-      - ./docker/scripts:/scripts
     environment:
+      COMPOSER_HOME: /tmp/composer
+      XDEBUG_MODE: "off"
       # Xdebug apagado por defecto; se activa con XDEBUG_MODE=debug
       XDEBUG_CONFIG: "client_host=host.docker.internal client_port=9003"
-
-      # Variables “tipo curso” (PHP puro)
-      MYSQL_HOST: mysql
-      MYSQL_USER: alumno
-      MYSQL_PASSWORD: alumno
-      MYSQL_DB: test
-
-      # Variables estándar Laravel (por si las necesitas)
-      #DB_CONNECTION: mysql
-      #DB_HOST: mysql
-      #DB_PORT: 3306
-      #DB_DATABASE: test
-      #DB_USERNAME: alumno
-      #DB_PASSWORD: alumno
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    user: "${UID:-1000}:${GID:-1000}"
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
 
   nginx:
     image: nginx:alpine
     ports:
-      - "8080:80"
+      - "127.0.0.1:8080:80"
     depends_on:
       - php
     volumes:
@@ -44,19 +32,38 @@ services:
   mysql:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: administrador
-      MYSQL_DATABASE: test
-      MYSQL_USER: alumno
-      MYSQL_PASSWORD: alumno
-    ports:
-      # Evita colisiones con MySQL local del host
-      - "3306:3306"
+      MYSQL_ROOT_PASSWORD: "${MYSQL_ROOT_PASSWORD:?Define MYSQL_ROOT_PASSWORD en src/.env}"
+      MYSQL_DATABASE: "${DB_DATABASE:?Define DB_DATABASE en src/.env}"
+      MYSQL_USER: "${DB_USERNAME:?Define DB_USERNAME en src/.env}"
+      MYSQL_PASSWORD: "${DB_PASSWORD:?Define DB_PASSWORD en src/.env}"
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
     volumes:
       - dbdata:/var/lib/mysql
       - ./docker/scripts:/scripts
-      - ./docker/mysql/init:/docker-entrypoint-initdb.d:ro
-    tmpfs:
-      - /tmp
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - >-
+          MYSQL_PWD="$${MYSQL_PASSWORD}"
+          mysql --protocol=TCP -h 127.0.01
+          -u "$${MYSQL_USER}" "$${MYSQL_DATABASE}" 
+          -e "SELECT 1" >/dev/null 2>&1 
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 30s 
+
+  node:
+    image: node:22-bookworm-slim
+    profiles: ["tools"]
+    working_dir: /var/www/html
+    user: "${LOCAL_UID:-1000}:${LOCAL_GID:-1000}"
+    volumes:
+      - ./src:/var/www/html
+    environment:
+      NPM_CONFIG_CACHE: /tmp/npm
 
 volumes:
   dbdata:

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Hoja de estilos personalizada -->
-    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+    @vite(['resources/css/custom.css', 'resources/js/app.js'])
     <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}?v={{ time() }}">
     <title>@hasSection('title') @yield('title') | @endif {{ config('app.name', 'LaLiga') }}</title>
 </head>
