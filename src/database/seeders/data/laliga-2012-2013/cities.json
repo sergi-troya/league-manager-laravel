@@ -1,0 +1,292 @@
+[
+  {
+    "code": "2",
+    "name": "Alacant",
+    "population": null
+  },
+  {
+    "code": "3",
+    "name": "Albacete",
+    "population": null
+  },
+  {
+    "code": "4",
+    "name": "Almeria",
+    "population": null
+  },
+  {
+    "code": "5",
+    "name": "Astúries",
+    "population": null
+  },
+  {
+    "code": "6",
+    "name": "Àvila",
+    "population": null
+  },
+  {
+    "code": "7",
+    "name": "Badajoz",
+    "population": null
+  },
+  {
+    "code": "8",
+    "name": "Barcelona",
+    "population": 1615000
+  },
+  {
+    "code": "9",
+    "name": "Bilbao",
+    "population": 353000
+  },
+  {
+    "code": "10",
+    "name": "Biscaia",
+    "population": null
+  },
+  {
+    "code": "11",
+    "name": "Burgos",
+    "population": null
+  },
+  {
+    "code": "12",
+    "name": "Càceres",
+    "population": null
+  },
+  {
+    "code": "13",
+    "name": "Cadis",
+    "population": null
+  },
+  {
+    "code": "14",
+    "name": "Cantàbria",
+    "population": null
+  },
+  {
+    "code": "15",
+    "name": "Castelló",
+    "population": null
+  },
+  {
+    "code": "16",
+    "name": "Ceuta",
+    "population": null
+  },
+  {
+    "code": "17",
+    "name": "Ciutat Real",
+    "population": null
+  },
+  {
+    "code": "18",
+    "name": "Còrdova",
+    "population": null
+  },
+  {
+    "code": "19",
+    "name": "Cornellà de Llobregat",
+    "population": 85000
+  },
+  {
+    "code": "20",
+    "name": "Cuenca",
+    "population": null
+  },
+  {
+    "code": "21",
+    "name": "Getafe",
+    "population": 169000
+  },
+  {
+    "code": "22",
+    "name": "Girona",
+    "population": null
+  },
+  {
+    "code": "23",
+    "name": "Granada",
+    "population": 234000
+  },
+  {
+    "code": "24",
+    "name": "Guadalajara",
+    "population": null
+  },
+  {
+    "code": "25",
+    "name": "Guipúscoa",
+    "population": null
+  },
+  {
+    "code": "26",
+    "name": "Huelva",
+    "population": null
+  },
+  {
+    "code": "27",
+    "name": "Illes Balears",
+    "population": null
+  },
+  {
+    "code": "28",
+    "name": "Jaén",
+    "population": null
+  },
+  {
+    "code": "29",
+    "name": "La Corunya",
+    "population": 246000
+  },
+  {
+    "code": "30",
+    "name": "La Rioja",
+    "population": null
+  },
+  {
+    "code": "31",
+    "name": "Las Palmas",
+    "population": null
+  },
+  {
+    "code": "32",
+    "name": "Lleida",
+    "population": null
+  },
+  {
+    "code": "33",
+    "name": "Lleó",
+    "population": null
+  },
+  {
+    "code": "34",
+    "name": "Lugo",
+    "population": null
+  },
+  {
+    "code": "35",
+    "name": "Madrid",
+    "population": 3293000
+  },
+  {
+    "code": "36",
+    "name": "Màlaga",
+    "population": 568000
+  },
+  {
+    "code": "37",
+    "name": "Melilla",
+    "population": null
+  },
+  {
+    "code": "38",
+    "name": "Múrcia",
+    "population": null
+  },
+  {
+    "code": "39",
+    "name": "Navarra",
+    "population": null
+  },
+  {
+    "code": "40",
+    "name": "Orense",
+    "population": null
+  },
+  {
+    "code": "41",
+    "name": "Osca",
+    "population": null
+  },
+  {
+    "code": "42",
+    "name": "Palència",
+    "population": null
+  },
+  {
+    "code": "43",
+    "name": "Palma de Mallorca",
+    "population": 400000
+  },
+  {
+    "code": "44",
+    "name": "Pamplona",
+    "population": 197000
+  },
+  {
+    "code": "45",
+    "name": "Pontevedra",
+    "population": null
+  },
+  {
+    "code": "46",
+    "name": "Salamanca",
+    "population": null
+  },
+  {
+    "code": "47",
+    "name": "Sant Sebastià",
+    "population": 186000
+  },
+  {
+    "code": "48",
+    "name": "Santa Cruz de Tenerife",
+    "population": null
+  },
+  {
+    "code": "49",
+    "name": "Saragossa",
+    "population": 680000
+  },
+  {
+    "code": "50",
+    "name": "Segòvia",
+    "population": null
+  },
+  {
+    "code": "51",
+    "name": "Sevilla",
+    "population": 702000
+  },
+  {
+    "code": "52",
+    "name": "Sória",
+    "population": null
+  },
+  {
+    "code": "53",
+    "name": "Tarragona",
+    "population": null
+  },
+  {
+    "code": "54",
+    "name": "Terol",
+    "population": null
+  },
+  {
+    "code": "55",
+    "name": "Toledo",
+    "population": null
+  },
+  {
+    "code": "56",
+    "name": "València",
+    "population": 798000
+  },
+  {
+    "code": "57",
+    "name": "Valladolid",
+    "population": 313000
+  },
+  {
+    "code": "58",
+    "name": "Vigo",
+    "population": 297000
+  },
+  {
+    "code": "59",
+    "name": "Zamora",
+    "population": null
+  }
+]

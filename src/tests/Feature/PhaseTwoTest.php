@@ -18,13 +18,13 @@ class PhaseTwoTest extends TestCase
 
     private const COUNTS = [
         'users' => 1,
-        'cities' => 4,
-        'teams' => 4,
-        'players' => 8,
-        'matchdays' => 3,
-        'games' => 6,
-        'goalkeepers' => 4,
-        'scorers' => 3,
+        'cities' => 58,
+        'teams' => 20,
+        'players' => 535,
+        'matchdays' => 38,
+        'games' => 380,
+        'goalkeepers' => 44,
+        'scorers' => 239,
     ];
 
     protected function setUp(): void
@@ -54,15 +54,15 @@ class PhaseTwoTest extends TestCase
         $this->assertSame($before, $this->snapshot());
 
         $stats = Matchday::dashboard();
-        $this->assertSame(4, $stats['games_completed']);
-        $this->assertSame(2, $stats['games_pending']);
-        $this->assertSame(6, $stats['total_goals']);
+        $this->assertSame(351, $stats['games_completed']);
+        $this->assertSame(29, $stats['games_pending']);
+        $this->assertSame(1002, $stats['total_goals']);
     }
 
     public function test_string_limits_are_enforced_on_create_and_update(): void
     {
-        $city = City::where('code', '1001')->firstOrFail();
-        $team = Team::where('code', 'ALF')->firstOrFail();
+        $city = City::where('code', '8')->firstOrFail();
+        $team = Team::where('code', 'bar')->firstOrFail();
         $player = $team->players()->where('number', 9)->firstOrFail();
 
         $this->post(route('cities.store'), [
@@ -95,7 +95,7 @@ class PhaseTwoTest extends TestCase
         ]))->assertSessionHasErrors($teamErrors);
 
         $invalidPlayer = [
-            'number' => 7,
+            'number' => 99,
             'name' => str_repeat('x', 31),
             'position' => str_repeat('x', 11),
         ];
@@ -109,18 +109,18 @@ class PhaseTwoTest extends TestCase
 
         $this->assertDatabaseMissing('cities', ['code' => '9001']);
         $this->assertDatabaseMissing('teams', ['code' => 'NEW']);
-        $this->assertDatabaseMissing('players', ['team_id' => $team->id, 'number' => 7]);
+        $this->assertDatabaseMissing('players', ['team_id' => $team->id, 'number' => 99]);
 
-        $this->assertSame('Ciudad Alfa', $city->fresh()->name);
-        $this->assertSame('Alfa FC', $team->fresh()->short_name);
-        $this->assertSame('Delantero Alfa FC', $player->fresh()->name);
+        $this->assertSame('Barcelona', $city->fresh()->name);
+        $this->assertSame('Barça', $team->fresh()->short_name);
+        $this->assertSame('Alexis Sánchez', $player->fresh()->name);
     }
 
     public function test_player_number_is_unique_per_team_and_edit_ignores_the_current_player(): void
     {
-        $team = Team::where('code', 'ALF')->firstOrFail();
-        $otherTeam = Team::where('code', 'BET')->firstOrFail();
-        $payload = ['number' => 7, 'name' => 'Jugador prueba', 'position' => 'Defensa'];
+        $team = Team::where('code', 'bar')->firstOrFail();
+        $otherTeam = Team::where('code', 'rma')->firstOrFail();
+        $payload = ['number' => 99, 'name' => 'Jugador prueba', 'position' => 'Defensa'];
 
         foreach ([$team, $otherTeam] as $currentTeam) {
             $this->post(route('players.store', ['team' => $currentTeam]), $payload)
@@ -128,7 +128,7 @@ class PhaseTwoTest extends TestCase
                 ->assertRedirect(route('players.index', ['team' => $currentTeam]));
         }
 
-        $player = $team->players()->where('number', 7)->firstOrFail();
+        $player = $team->players()->where('number', 99)->firstOrFail();
 
         $this->post(route('players.store', ['team' => $team]), $payload)
             ->assertSessionHasErrors('number');
@@ -145,17 +145,18 @@ class PhaseTwoTest extends TestCase
         $this->put(route('players.update', ['team' => $otherTeam, 'player' => $player]), $payload)
             ->assertNotFound();
 
-        $this->assertSame(2, DB::table('players')->where('number', 7)->count());
-        $this->assertSame(7, $player->fresh()->number);
+        $this->assertSame(2, DB::table('players')->where('number', 99)->count());
+        $this->assertSame(99, $player->fresh()->number);
         $this->assertSame('Jugador editado', $player->fresh()->name);
         $this->assertSame($team->id, $player->fresh()->team_id);
     }
 
     public function test_match_updates_validate_goals_scope_the_matchday_and_keep_the_teams(): void
     {
-        $matchday = Matchday::where('number', 3)->firstOrFail();
+        $matchday = Matchday::where('number', 38)->firstOrFail();
         $wrongMatchday = Matchday::where('number', 1)->firstOrFail();
-        $game = $matchday->games()->orderBy('id')->firstOrFail();
+        $game = $matchday->games()->whereNull('home_goals')->whereNull('away_goals')->orderBy('id')->firstOrFail();
+        $beforeStats = Matchday::dashboard();
 
         $homeTeamId = $game->home_team_id;
         $awayTeamId = $game->away_team_id;
@@ -213,9 +214,9 @@ class PhaseTwoTest extends TestCase
         ]);
 
         $stats = Matchday::dashboard();
-        $this->assertSame(5, $stats['games_completed']);
-        $this->assertSame(1, $stats['games_pending']);
-        $this->assertSame(9, $stats['total_goals']);
+        $this->assertSame($beforeStats['games_completed'] + 1, $stats['games_completed']);
+        $this->assertSame($beforeStats['games_pending'] - 1, $stats['games_pending']);
+        $this->assertSame($beforeStats['total_goals'] + 3, $stats['total_goals']);
     }
 
     private function snapshot(): array

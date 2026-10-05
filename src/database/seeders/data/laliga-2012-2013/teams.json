@@ -1,0 +1,222 @@
+[
+  {
+    "code": "ath",
+    "short_name": "Athletic",
+    "full_name": "Athletic Club",
+    "city_code": "9",
+    "coach": "Marcelo Bielsa",
+    "stadium": "Estadio de San Mamés",
+    "brand": "Umbro",
+    "sponsor": "Petronor",
+    "budget": 58
+  },
+  {
+    "code": "atm",
+    "short_name": "At. Madrid",
+    "full_name": "Club Atlético de Madrid",
+    "city_code": "35",
+    "coach": "Diego Simeone",
+    "stadium": "Vicente Calderón",
+    "brand": "Nike",
+    "sponsor": "Azerbaiyán",
+    "budget": 120
+  },
+  {
+    "code": "bar",
+    "short_name": "Barça",
+    "full_name": "Futbol Club Barcelona",
+    "city_code": "8",
+    "coach": "Tito Vilanova",
+    "stadium": "Camp Nou",
+    "brand": "Qatar Foundation",
+    "sponsor": "UNICEF",
+    "budget": 470
+  },
+  {
+    "code": "bet",
+    "short_name": "Real Betis",
+    "full_name": "Real Betis Balompié",
+    "city_code": "51",
+    "coach": "Pepe Mel",
+    "stadium": "Benito Villamarín",
+    "brand": "Cirsa",
+    "sponsor": "Andalucía",
+    "budget": 40
+  },
+  {
+    "code": "cel",
+    "short_name": "Celta de Vigo",
+    "full_name": "Real Club Celta de Vigo",
+    "city_code": "58",
+    "coach": "Abel Resino",
+    "stadium": "Estadio de Balaídos",
+    "brand": "Adidas",
+    "sponsor": "Citroën",
+    "budget": 33
+  },
+  {
+    "code": "dep",
+    "short_name": "Deportivo",
+    "full_name": "Real Club Deportivo de La Coruña",
+    "city_code": "29",
+    "coach": "Fernando Vázquez Pena",
+    "stadium": "Riazor",
+    "brand": "Lotto Sport Italia",
+    "sponsor": "Hijos de Rivera",
+    "budget": 40
+  },
+  {
+    "code": "esp",
+    "short_name": "Espanyol",
+    "full_name": "Reial Club Deportiu Espanyol",
+    "city_code": "8",
+    "coach": "Javier Aguirre",
+    "stadium": "Cornellà-El Prat",
+    "brand": "Puma",
+    "sponsor": "Cancún",
+    "budget": 46
+  },
+  {
+    "code": "gda",
+    "short_name": "Granada",
+    "full_name": "Granada Club de Fútbol",
+    "city_code": "23",
+    "coach": "Lucas Alcaraz",
+    "stadium": "Los Cármenes",
+    "brand": "Caja Granada",
+    "sponsor": "",
+    "budget": 30
+  },
+  {
+    "code": "get",
+    "short_name": "Getafe",
+    "full_name": "Getafe Club de Fútbol",
+    "city_code": "21",
+    "coach": "Luis García Plaza",
+    "stadium": "Coliseum Alfonso Pérez",
+    "brand": "Joma",
+    "sponsor": "",
+    "budget": 42
+  },
+  {
+    "code": "lev",
+    "short_name": "Llevant",
+    "full_name": "LLevant Unió Esportiva",
+    "city_code": "56",
+    "coach": "Juan Ignacio Martínez Jiménez",
+    "stadium": "Ciutat de València",
+    "brand": "Kelme",
+    "sponsor": "Comunitat Valenciana",
+    "budget": 22
+  },
+  {
+    "code": "mal",
+    "short_name": "Mallorca",
+    "full_name": "Real Club Deportivo Mallorca",
+    "city_code": "43",
+    "coach": "Gregorio Manzano",
+    "stadium": "Iberostar Estadio",
+    "brand": "Riviera Maya",
+    "sponsor": "Sol Melià",
+    "budget": 31
+  },
+  {
+    "code": "mga",
+    "short_name": "Málaga",
+    "full_name": "Málaga Club de Fútbol",
+    "city_code": "36",
+    "coach": "Manuel Pellegrini",
+    "stadium": "Estadio La Rosaleda",
+    "brand": "Unesco",
+    "sponsor": "Porsche",
+    "budget": 80
+  },
+  {
+    "code": "osa",
+    "short_name": "Osasuna",
+    "full_name": "Club Atlético Osasuna",
+    "city_code": "44",
+    "coach": "José Luis Mendilibar",
+    "stadium": "Reyno de Navarra",
+    "brand": "",
+    "sponsor": "",
+    "budget": 30
+  },
+  {
+    "code": "ray",
+    "short_name": "Rayo Vallecano",
+    "full_name": "Rayo Vallecano de Madrid",
+    "city_code": "35",
+    "coach": "Paco Jiménez",
+    "stadium": "Campo de Fútbol de Vallecas",
+    "brand": "Erreà",
+    "sponsor": "",
+    "budget": 8
+  },
+  {
+    "code": "rma",
+    "short_name": "Real Madrid",
+    "full_name": "Real Madrid Club de Fútbol",
+    "city_code": "35",
+    "coach": "José Mourinho",
+    "stadium": "Santiago Bernabéu",
+    "brand": "Adidas",
+    "sponsor": "",
+    "budget": 517
+  },
+  {
+    "code": "rso",
+    "short_name": "Real Sociedad",
+    "full_name": "Real Sociedad de Fútbol",
+    "city_code": "47",
+    "coach": "Philippe Montanier",
+    "stadium": "Anoeta",
+    "brand": "Canal+",
+    "sponsor": "Kutxa",
+    "budget": 43
+  },
+  {
+    "code": "sev",
+    "short_name": "Sevilla",
+    "full_name": "Sevilla Fútbol Club",
+    "city_code": "51",
+    "coach": "Unai Emery",
+    "stadium": "Ramón Sánchez Pizjuán",
+    "brand": "",
+    "sponsor": "",
+    "budget": 60
+  },
+  {
+    "code": "vad",
+    "short_name": "Valladolid",
+    "full_name": "Real Valladolid Club de Fútbol",
+    "city_code": "57",
+    "coach": "Miroslav Djukic",
+    "stadium": "Estadio José Zorrilla",
+    "brand": "Kappa",
+    "sponsor": "El Norte de Castilla",
+    "budget": 23
+  },
+  {
+    "code": "val",
+    "short_name": "València",
+    "full_name": "València Club de Futbol",
+    "city_code": "56",
+    "coach": "Ernesto Valverde",
+    "stadium": "Mestalla",
+    "brand": "",
+    "sponsor": "",
+    "budget": 103
+  },
+  {
+    "code": "zar",
+    "short_name": "Zaragoza",
+    "full_name": "Real Zaragoza",
+    "city_code": "49",
+    "coach": "Manolo Jiménez Jiménez",
+    "stadium": "La Romareda",
+    "brand": "Telefónica",
+    "sponsor": "Canal+",
+    "budget": 0
+  }
+]

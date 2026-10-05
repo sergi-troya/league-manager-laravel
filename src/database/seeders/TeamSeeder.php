@@ -5,31 +5,21 @@ namespace Database\Seeders;
 use App\Models\City;
 use App\Models\Team;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Arr;
 
 class TeamSeeder extends Seeder
 {
     public function run(): void
     {
-        $teams = [
-            ['ALF', '1001', 'Alfa FC', 'Club Deportivo Alfa'],
-            ['BET', '1002', 'Beta FC', 'Club Deportivo Beta'],
-            ['GAM', '1003', 'Gamma FC', 'Club Deportivo Gamma'],
-            ['DEL', '1004', 'Delta FC', 'Club Deportivo Delta'],
-        ];
+        $cityIds = City::query()->pluck('id', 'code')->all();
 
-        foreach ($teams as [$code, $cityCode, $shortName, $fullName]) {
-            $city = City::where('code', $cityCode)->firstOrFail();
+        foreach (SeasonData::rows('teams') as $team) {
+            $values = Arr::except($team, ['code', 'city_code']);
+            $values['city_id'] = $team['city_code'] === null
+                ? null
+                : SeasonData::resolveId($cityIds, $team['city_code'], 'cities.code');
 
-            Team::updateOrCreate(['code' => $code], [
-                'short_name' => $shortName,
-                'full_name' => $fullName,
-                'city_id' => $city->id,
-                'coach' => 'Entrenador ' . $shortName,
-                'stadium' => 'Estadio ' . $shortName,
-                'brand' => 'Demo',
-                'sponsor' => 'Demo',
-                'budget' => 1000000,
-            ]);
+            Team::updateOrCreate(['code' => $team['code']], $values);
         }
     }
 }

@@ -1,0 +1,3747 @@
+[
+  {
+    "team": "ath",
+    "number": 1,
+    "name": "Gorka Iraizoz",
+    "position": "Portero",
+    "salary": 2850000
+  },
+  {
+    "team": "ath",
+    "number": 2,
+    "name": "Toquero",
+    "position": "Defensa",
+    "salary": 1670000
+  },
+  {
+    "team": "ath",
+    "number": 3,
+    "name": "Aurtenetxe",
+    "position": "Defensa",
+    "salary": 1680000
+  },
+  {
+    "team": "ath",
+    "number": 4,
+    "name": "Laporte",
+    "position": "Defensa",
+    "salary": 1690000
+  },
+  {
+    "team": "ath",
+    "number": 5,
+    "name": "Amorebieta",
+    "position": "Defensa",
+    "salary": 1700000
+  },
+  {
+    "team": "ath",
+    "number": 6,
+    "name": "Mikel San José",
+    "position": "Medio",
+    "salary": 4310000
+  },
+  {
+    "team": "ath",
+    "number": 8,
+    "name": "Iturraspe",
+    "position": "Defensa",
+    "salary": 1730000
+  },
+  {
+    "team": "ath",
+    "number": 9,
+    "name": "Fernando Llorente",
+    "position": "Medio",
+    "salary": 3210000
+  },
+  {
+    "team": "ath",
+    "number": 10,
+    "name": "Óscar de Marcos",
+    "position": "Medio",
+    "salary": 4710000
+  },
+  {
+    "team": "ath",
+    "number": 11,
+    "name": "Ibai Gómez",
+    "position": "Medio",
+    "salary": 4010000
+  },
+  {
+    "team": "ath",
+    "number": 13,
+    "name": "Raúl Fernández",
+    "position": "Portero",
+    "salary": 470000
+  },
+  {
+    "team": "ath",
+    "number": 14,
+    "name": "Markel Susaeta",
+    "position": "Medio",
+    "salary": 4710000
+  },
+  {
+    "team": "ath",
+    "number": 15,
+    "name": "Iraola",
+    "position": "Defensa",
+    "salary": 1800000
+  },
+  {
+    "team": "ath",
+    "number": 16,
+    "name": "Isma López",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "ath",
+    "number": 17,
+    "name": "Iñigo Pérez",
+    "position": "Defensa",
+    "salary": 1820000
+  },
+  {
+    "team": "ath",
+    "number": 18,
+    "name": "Carlos Gurpegui",
+    "position": "Medio",
+    "salary": 2810000
+  },
+  {
+    "team": "ath",
+    "number": 19,
+    "name": "Iker Muniain",
+    "position": "Medio",
+    "salary": 3510000
+  },
+  {
+    "team": "ath",
+    "number": 20,
+    "name": "Aritz Aduriz",
+    "position": "Delantero",
+    "salary": 6310000
+  },
+  {
+    "team": "ath",
+    "number": 21,
+    "name": "Ander Herrera",
+    "position": "Medio",
+    "salary": 3010000
+  },
+  {
+    "team": "ath",
+    "number": 22,
+    "name": "Xabi Castillo",
+    "position": "Defensa",
+    "salary": 1870000
+  },
+  {
+    "team": "ath",
+    "number": 23,
+    "name": "Ekiza",
+    "position": "Defensa",
+    "salary": 1880000
+  },
+  {
+    "team": "ath",
+    "number": 26,
+    "name": "Igor Martínez",
+    "position": "Defensa",
+    "salary": 1910000
+  },
+  {
+    "team": "ath",
+    "number": 27,
+    "name": "Ruiz de Galarreta",
+    "position": "Defensa",
+    "salary": 1920000
+  },
+  {
+    "team": "ath",
+    "number": 28,
+    "name": "Ramalho",
+    "position": "Defensa",
+    "salary": 1930000
+  },
+  {
+    "team": "ath",
+    "number": 37,
+    "name": "Aketxe",
+    "position": "Defensa",
+    "salary": 2020000
+  },
+  {
+    "team": "ath",
+    "number": 39,
+    "name": "Morán",
+    "position": "Defensa",
+    "salary": 2040000
+  },
+  {
+    "team": "atm",
+    "number": 1,
+    "name": "Sergio Asenjo",
+    "position": "Portero",
+    "salary": 440000
+  },
+  {
+    "team": "atm",
+    "number": 2,
+    "name": "Diego Godín",
+    "position": "Medio",
+    "salary": 3960000
+  },
+  {
+    "team": "atm",
+    "number": 3,
+    "name": "Filipe Luís",
+    "position": "Medio",
+    "salary": 3660000
+  },
+  {
+    "team": "atm",
+    "number": 4,
+    "name": "Mario Suárez",
+    "position": "Medio",
+    "salary": 3360000
+  },
+  {
+    "team": "atm",
+    "number": 5,
+    "name": "Tiago",
+    "position": "Medio",
+    "salary": 2860000
+  },
+  {
+    "team": "atm",
+    "number": 6,
+    "name": "Koke",
+    "position": "Medio",
+    "salary": 4060000
+  },
+  {
+    "team": "atm",
+    "number": 7,
+    "name": "Adrián López",
+    "position": "Medio",
+    "salary": 3960000
+  },
+  {
+    "team": "atm",
+    "number": 8,
+    "name": "Raúl García",
+    "position": "Medio",
+    "salary": 4260000
+  },
+  {
+    "team": "atm",
+    "number": 9,
+    "name": "Radamel Falcao",
+    "position": "Delantero",
+    "salary": 9260000
+  },
+  {
+    "team": "atm",
+    "number": 10,
+    "name": "Arda Turan",
+    "position": "Medio",
+    "salary": 4160000
+  },
+  {
+    "team": "atm",
+    "number": 11,
+    "name": "Cristián Rodríguez",
+    "position": "Medio",
+    "salary": 3660000
+  },
+  {
+    "team": "atm",
+    "number": 12,
+    "name": "Pulido",
+    "position": "Defensa",
+    "salary": 2360000
+  },
+  {
+    "team": "atm",
+    "number": 13,
+    "name": "Thibaut Courtois",
+    "position": "Portero",
+    "salary": 3580000
+  },
+  {
+    "team": "atm",
+    "number": 14,
+    "name": "Gabi",
+    "position": "Defensa",
+    "salary": 2380000
+  },
+  {
+    "team": "atm",
+    "number": 15,
+    "name": "Cisma",
+    "position": "Defensa",
+    "salary": 2390000
+  },
+  {
+    "team": "atm",
+    "number": 18,
+    "name": "Cata Díaz",
+    "position": "Defensa",
+    "salary": 2420000
+  },
+  {
+    "team": "atm",
+    "number": 19,
+    "name": "Diego Costa",
+    "position": "Delantero",
+    "salary": 4860000
+  },
+  {
+    "team": "atm",
+    "number": 20,
+    "name": "Juanfran",
+    "position": "Medio",
+    "salary": 3860000
+  },
+  {
+    "team": "atm",
+    "number": 22,
+    "name": "Insúa",
+    "position": "Defensa",
+    "salary": 2460000
+  },
+  {
+    "team": "atm",
+    "number": 23,
+    "name": "Miranda",
+    "position": "Medio",
+    "salary": 4060000
+  },
+  {
+    "team": "atm",
+    "number": 26,
+    "name": "Manquillo",
+    "position": "Defensa",
+    "salary": 2500000
+  },
+  {
+    "team": "atm",
+    "number": 28,
+    "name": "Saúl",
+    "position": "Defensa",
+    "salary": 2520000
+  },
+  {
+    "team": "atm",
+    "number": 30,
+    "name": "Óliver Torres",
+    "position": "Defensa",
+    "salary": 2540000
+  },
+  {
+    "team": "atm",
+    "number": 31,
+    "name": "Borja Galán",
+    "position": "Defensa",
+    "salary": 2550000
+  },
+  {
+    "team": "atm",
+    "number": 34,
+    "name": "Iván Calero",
+    "position": "Defensa",
+    "salary": 2580000
+  },
+  {
+    "team": "atm",
+    "number": 35,
+    "name": "Galass",
+    "position": "Defensa",
+    "salary": 2590000
+  },
+  {
+    "team": "atm",
+    "number": 41,
+    "name": "Ndoye",
+    "position": "Defensa",
+    "salary": 2650000
+  },
+  {
+    "team": "atm",
+    "number": 42,
+    "name": "Kader",
+    "position": "Defensa",
+    "salary": 2660000
+  },
+  {
+    "team": "atm",
+    "number": 43,
+    "name": "Thomas",
+    "position": "Defensa",
+    "salary": 2670000
+  },
+  {
+    "team": "bar",
+    "number": 1,
+    "name": "Víctor Valdés",
+    "position": "Portero",
+    "salary": 3040000
+  },
+  {
+    "team": "bar",
+    "number": 2,
+    "name": "Dani Alves",
+    "position": "Defensa",
+    "salary": 2740000
+  },
+  {
+    "team": "bar",
+    "number": 3,
+    "name": "Gerard Piqué",
+    "position": "Medio",
+    "salary": 3360000
+  },
+  {
+    "team": "bar",
+    "number": 4,
+    "name": "Cesc Fàbregas",
+    "position": "Delantero",
+    "salary": 5360000
+  },
+  {
+    "team": "bar",
+    "number": 5,
+    "name": "Carles Puyol",
+    "position": "Medio",
+    "salary": 1960000
+  },
+  {
+    "team": "bar",
+    "number": 6,
+    "name": "Xavi",
+    "position": "Medio",
+    "salary": 4060000
+  },
+  {
+    "team": "bar",
+    "number": 7,
+    "name": "David Villa",
+    "position": "Delantero",
+    "salary": 4760000
+  },
+  {
+    "team": "bar",
+    "number": 8,
+    "name": "Andrés Iniesta",
+    "position": "Medio",
+    "salary": 3660000
+  },
+  {
+    "team": "bar",
+    "number": 9,
+    "name": "Alexis Sánchez",
+    "position": "Delantero",
+    "salary": 4560000
+  },
+  {
+    "team": "bar",
+    "number": 10,
+    "name": "Lionel Messi",
+    "position": "Delantero",
+    "salary": 12860000
+  },
+  {
+    "team": "bar",
+    "number": 11,
+    "name": "Thiago Alcântara",
+    "position": "Medio",
+    "salary": 3260000
+  },
+  {
+    "team": "bar",
+    "number": 12,
+    "name": "Jonathan dos Santos",
+    "position": "Defensa",
+    "salary": 2840000
+  },
+  {
+    "team": "bar",
+    "number": 13,
+    "name": "José Manuel Pinto",
+    "position": "Portero",
+    "salary": 1000000
+  },
+  {
+    "team": "bar",
+    "number": 14,
+    "name": "Mascherano",
+    "position": "Defensa",
+    "salary": 2860000
+  },
+  {
+    "team": "bar",
+    "number": 15,
+    "name": "Bartra",
+    "position": "Defensa",
+    "salary": 2870000
+  },
+  {
+    "team": "bar",
+    "number": 16,
+    "name": "Sergio Busquets",
+    "position": "Medio",
+    "salary": 3560000
+  },
+  {
+    "team": "bar",
+    "number": 17,
+    "name": "Pedro Rodríguez",
+    "position": "Medio",
+    "salary": 3960000
+  },
+  {
+    "team": "bar",
+    "number": 18,
+    "name": "Jordi Alba",
+    "position": "Medio",
+    "salary": 3460000
+  },
+  {
+    "team": "bar",
+    "number": 19,
+    "name": "Montoya",
+    "position": "Defensa",
+    "salary": 2910000
+  },
+  {
+    "team": "bar",
+    "number": 21,
+    "name": "Adriano",
+    "position": "Medio",
+    "salary": 3760000
+  },
+  {
+    "team": "bar",
+    "number": 22,
+    "name": "Abidal",
+    "position": "Defensa",
+    "salary": 2940000
+  },
+  {
+    "team": "bar",
+    "number": 25,
+    "name": "Alex Song",
+    "position": "Medio",
+    "salary": 2560000
+  },
+  {
+    "team": "bar",
+    "number": 27,
+    "name": "Deulofeu",
+    "position": "Defensa",
+    "salary": 2990000
+  },
+  {
+    "team": "bar",
+    "number": 28,
+    "name": "Sergi Roberto",
+    "position": "Defensa",
+    "salary": 3000000
+  },
+  {
+    "team": "bar",
+    "number": 31,
+    "name": "Oier",
+    "position": "Defensa",
+    "salary": 3030000
+  },
+  {
+    "team": "bar",
+    "number": 32,
+    "name": "Masip",
+    "position": "Defensa",
+    "salary": 3040000
+  },
+  {
+    "team": "bar",
+    "number": 37,
+    "name": "Cristian Tello",
+    "position": "Delantero",
+    "salary": 3860000
+  },
+  {
+    "team": "bet",
+    "number": 1,
+    "name": "Casto Barriga",
+    "position": "Portero",
+    "salary": 620000
+  },
+  {
+    "team": "bet",
+    "number": 2,
+    "name": "Chica",
+    "position": "Defensa",
+    "salary": 1440000
+  },
+  {
+    "team": "bet",
+    "number": 3,
+    "name": "Mario Álvarez",
+    "position": "Medio",
+    "salary": 2360000
+  },
+  {
+    "team": "bet",
+    "number": 4,
+    "name": "Amaya",
+    "position": "Defensa",
+    "salary": 1460000
+  },
+  {
+    "team": "bet",
+    "number": 6,
+    "name": "Álex Martínez",
+    "position": "Defensa",
+    "salary": 1480000
+  },
+  {
+    "team": "bet",
+    "number": 7,
+    "name": "Ángel López",
+    "position": "Medio",
+    "salary": 1360000
+  },
+  {
+    "team": "bet",
+    "number": 8,
+    "name": "Rubén Pérez",
+    "position": "Medio",
+    "salary": 2660000
+  },
+  {
+    "team": "bet",
+    "number": 9,
+    "name": "Vadillo",
+    "position": "Defensa",
+    "salary": 1510000
+  },
+  {
+    "team": "bet",
+    "number": 10,
+    "name": "Beñat",
+    "position": "Medio",
+    "salary": 4160000
+  },
+  {
+    "team": "bet",
+    "number": 11,
+    "name": "Alejandro Pozuelo",
+    "position": "Medio",
+    "salary": 1560000
+  },
+  {
+    "team": "bet",
+    "number": 12,
+    "name": "Paulão",
+    "position": "Medio",
+    "salary": 2660000
+  },
+  {
+    "team": "bet",
+    "number": 13,
+    "name": "Adrián San Miguel",
+    "position": "Portero",
+    "salary": 2810000
+  },
+  {
+    "team": "bet",
+    "number": 14,
+    "name": "Salva Sevilla",
+    "position": "Medio",
+    "salary": 2060000
+  },
+  {
+    "team": "bet",
+    "number": 15,
+    "name": "Joel Campbell",
+    "position": "Medio",
+    "salary": 3160000
+  },
+  {
+    "team": "bet",
+    "number": 16,
+    "name": "Perquis",
+    "position": "Defensa",
+    "salary": 1580000
+  },
+  {
+    "team": "bet",
+    "number": 17,
+    "name": "Juan Carlos",
+    "position": "Defensa",
+    "salary": 1590000
+  },
+  {
+    "team": "bet",
+    "number": 18,
+    "name": "Molins",
+    "position": "Defensa",
+    "salary": 1600000
+  },
+  {
+    "team": "bet",
+    "number": 19,
+    "name": "Jorge Molina",
+    "position": "Delantero",
+    "salary": 5460000
+  },
+  {
+    "team": "bet",
+    "number": 20,
+    "name": "Nosa Igiebor",
+    "position": "Medio",
+    "salary": 2060000
+  },
+  {
+    "team": "bet",
+    "number": 21,
+    "name": "Cañas",
+    "position": "Defensa",
+    "salary": 1630000
+  },
+  {
+    "team": "bet",
+    "number": 22,
+    "name": "Dorlan Pabon",
+    "position": "Medio",
+    "salary": 2860000
+  },
+  {
+    "team": "bet",
+    "number": 23,
+    "name": "Nacho",
+    "position": "Defensa",
+    "salary": 1650000
+  },
+  {
+    "team": "bet",
+    "number": 24,
+    "name": "Rubén Castro",
+    "position": "Delantero",
+    "salary": 6760000
+  },
+  {
+    "team": "bet",
+    "number": 25,
+    "name": "Fabricio Agosto",
+    "position": "Portero",
+    "salary": 410000
+  },
+  {
+    "team": "bet",
+    "number": 27,
+    "name": "Fausto",
+    "position": "Defensa",
+    "salary": 1690000
+  },
+  {
+    "team": "bet",
+    "number": 29,
+    "name": "Nono",
+    "position": "Defensa",
+    "salary": 1710000
+  },
+  {
+    "team": "bet",
+    "number": 30,
+    "name": "Eder Vilarchao",
+    "position": "Defensa",
+    "salary": 1720000
+  },
+  {
+    "team": "bet",
+    "number": 32,
+    "name": "Manu Palancar",
+    "position": "Defensa",
+    "salary": 1740000
+  },
+  {
+    "team": "bet",
+    "number": 34,
+    "name": "Carlos García",
+    "position": "Defensa",
+    "salary": 1760000
+  },
+  {
+    "team": "bet",
+    "number": 35,
+    "name": "Borja",
+    "position": "Defensa",
+    "salary": 1770000
+  },
+  {
+    "team": "bet",
+    "number": 37,
+    "name": "Eneko Eizmendi",
+    "position": "Defensa",
+    "salary": 1790000
+  },
+  {
+    "team": "bet",
+    "number": 39,
+    "name": "Sergio Rodríguez",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "cel",
+    "number": 1,
+    "name": "Sergio Álvarez",
+    "position": "Portero",
+    "salary": 340000
+  },
+  {
+    "team": "cel",
+    "number": 2,
+    "name": "Hugo Mallo",
+    "position": "Defensa",
+    "salary": 1640000
+  },
+  {
+    "team": "cel",
+    "number": 3,
+    "name": "Roberto Lago",
+    "position": "Defensa",
+    "salary": 1650000
+  },
+  {
+    "team": "cel",
+    "number": 4,
+    "name": "Borja Oubiña",
+    "position": "Medio",
+    "salary": 3760000
+  },
+  {
+    "team": "cel",
+    "number": 5,
+    "name": "Túñez",
+    "position": "Defensa",
+    "salary": 1670000
+  },
+  {
+    "team": "cel",
+    "number": 6,
+    "name": "Jonathan Vila",
+    "position": "Defensa",
+    "salary": 1680000
+  },
+  {
+    "team": "cel",
+    "number": 8,
+    "name": "Álex López",
+    "position": "Medio",
+    "salary": 3660000
+  },
+  {
+    "team": "cel",
+    "number": 9,
+    "name": "Mario Bermejo",
+    "position": "Medio",
+    "salary": 4460000
+  },
+  {
+    "team": "cel",
+    "number": 10,
+    "name": "Iago Aspas",
+    "position": "Delantero",
+    "salary": 5560000
+  },
+  {
+    "team": "cel",
+    "number": 11,
+    "name": "Pranjic",
+    "position": "Defensa",
+    "salary": 1730000
+  },
+  {
+    "team": "cel",
+    "number": 12,
+    "name": "Gustavo Cabral",
+    "position": "Medio",
+    "salary": 2860000
+  },
+  {
+    "team": "cel",
+    "number": 13,
+    "name": "Javi Varas",
+    "position": "Portero",
+    "salary": 3060000
+  },
+  {
+    "team": "cel",
+    "number": 15,
+    "name": "Demidov",
+    "position": "Defensa",
+    "salary": 1770000
+  },
+  {
+    "team": "cel",
+    "number": 16,
+    "name": "Bellvis",
+    "position": "Defensa",
+    "salary": 1780000
+  },
+  {
+    "team": "cel",
+    "number": 18,
+    "name": "Park Chu-Young",
+    "position": "Medio",
+    "salary": 2860000
+  },
+  {
+    "team": "cel",
+    "number": 19,
+    "name": "Orellana",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "cel",
+    "number": 20,
+    "name": "Toni",
+    "position": "Defensa",
+    "salary": 1820000
+  },
+  {
+    "team": "cel",
+    "number": 21,
+    "name": "Samuel",
+    "position": "Defensa",
+    "salary": 1830000
+  },
+  {
+    "team": "cel",
+    "number": 22,
+    "name": "Enrique de Lucas",
+    "position": "Medio",
+    "salary": 3060000
+  },
+  {
+    "team": "cel",
+    "number": 23,
+    "name": "Michael Krohn-Dehli",
+    "position": "Medio",
+    "salary": 3560000
+  },
+  {
+    "team": "cel",
+    "number": 24,
+    "name": "Augusto Fernández",
+    "position": "Medio",
+    "salary": 4760000
+  },
+  {
+    "team": "cel",
+    "number": 25,
+    "name": "Natxo Insa",
+    "position": "Medio",
+    "salary": 1960000
+  },
+  {
+    "team": "cel",
+    "number": 26,
+    "name": "Blanco",
+    "position": "Defensa",
+    "salary": 1880000
+  },
+  {
+    "team": "cel",
+    "number": 28,
+    "name": "Jonny",
+    "position": "Defensa",
+    "salary": 1900000
+  },
+  {
+    "team": "cel",
+    "number": 29,
+    "name": "Madinda",
+    "position": "Defensa",
+    "salary": 1910000
+  },
+  {
+    "team": "cel",
+    "number": 31,
+    "name": "Santi Mina",
+    "position": "Defensa",
+    "salary": 1930000
+  },
+  {
+    "team": "dep",
+    "number": 1,
+    "name": "Aranzubia",
+    "position": "Portero",
+    "salary": 2730000
+  },
+  {
+    "team": "dep",
+    "number": 2,
+    "name": "Manuel Pablo",
+    "position": "Defensa",
+    "salary": 1830000
+  },
+  {
+    "team": "dep",
+    "number": 3,
+    "name": "Evaldo",
+    "position": "Defensa",
+    "salary": 1840000
+  },
+  {
+    "team": "dep",
+    "number": 4,
+    "name": "Alex Bergantiños",
+    "position": "Medio",
+    "salary": 3060000
+  },
+  {
+    "team": "dep",
+    "number": 5,
+    "name": "Zé Castro",
+    "position": "Defensa",
+    "salary": 1860000
+  },
+  {
+    "team": "dep",
+    "number": 6,
+    "name": "Aythami",
+    "position": "Defensa",
+    "salary": 1870000
+  },
+  {
+    "team": "dep",
+    "number": 8,
+    "name": "André Santos",
+    "position": "Defensa",
+    "salary": 1890000
+  },
+  {
+    "team": "dep",
+    "number": 9,
+    "name": "Pizzi",
+    "position": "Delantero",
+    "salary": 4960000
+  },
+  {
+    "team": "dep",
+    "number": 10,
+    "name": "Juan Domínguez",
+    "position": "Medio",
+    "salary": 2460000
+  },
+  {
+    "team": "dep",
+    "number": 11,
+    "name": "Riki",
+    "position": "Delantero",
+    "salary": 6060000
+  },
+  {
+    "team": "dep",
+    "number": 12,
+    "name": "Paulo Assunção",
+    "position": "Defensa",
+    "salary": 1930000
+  },
+  {
+    "team": "dep",
+    "number": 13,
+    "name": "Germán Lux",
+    "position": "Portero",
+    "salary": 530000
+  },
+  {
+    "team": "dep",
+    "number": 14,
+    "name": "Abel Aguilar",
+    "position": "Medio",
+    "salary": 3260000
+  },
+  {
+    "team": "dep",
+    "number": 15,
+    "name": "Laure",
+    "position": "Defensa",
+    "salary": 1960000
+  },
+  {
+    "team": "dep",
+    "number": 16,
+    "name": "Bruno Gama",
+    "position": "Medio",
+    "salary": 4660000
+  },
+  {
+    "team": "dep",
+    "number": 17,
+    "name": "Ayoze",
+    "position": "Defensa",
+    "salary": 1980000
+  },
+  {
+    "team": "dep",
+    "number": 18,
+    "name": "Javier Camuñas",
+    "position": "Medio",
+    "salary": 2660000
+  },
+  {
+    "team": "dep",
+    "number": 19,
+    "name": "Sílvio",
+    "position": "Medio",
+    "salary": 2060000
+  },
+  {
+    "team": "dep",
+    "number": 20,
+    "name": "Jesús Vázquez",
+    "position": "Defensa",
+    "salary": 2010000
+  },
+  {
+    "team": "dep",
+    "number": 21,
+    "name": "Juan Carlos Valerón",
+    "position": "Medio",
+    "salary": 3360000
+  },
+  {
+    "team": "dep",
+    "number": 22,
+    "name": "Diogo Salomão",
+    "position": "Medio",
+    "salary": 1560000
+  },
+  {
+    "team": "dep",
+    "number": 23,
+    "name": "Kaká",
+    "position": "Defensa",
+    "salary": 2040000
+  },
+  {
+    "team": "dep",
+    "number": 24,
+    "name": "Carlos Marchena",
+    "position": "Medio",
+    "salary": 2760000
+  },
+  {
+    "team": "dep",
+    "number": 25,
+    "name": "Nélson Oliveira",
+    "position": "Medio",
+    "salary": 3460000
+  },
+  {
+    "team": "dep",
+    "number": 28,
+    "name": "Insúa",
+    "position": "Defensa",
+    "salary": 2090000
+  },
+  {
+    "team": "esp",
+    "number": 1,
+    "name": "Cristian Álvarez",
+    "position": "Portero",
+    "salary": 1580000
+  },
+  {
+    "team": "esp",
+    "number": 2,
+    "name": "Mattioni",
+    "position": "Defensa",
+    "salary": 1880000
+  },
+  {
+    "team": "esp",
+    "number": 3,
+    "name": "Raúl Rodríguez",
+    "position": "Defensa",
+    "salary": 1890000
+  },
+  {
+    "team": "esp",
+    "number": 4,
+    "name": "Víctor Sánchez",
+    "position": "Medio",
+    "salary": 3520000
+  },
+  {
+    "team": "esp",
+    "number": 5,
+    "name": "Tejera",
+    "position": "Medio",
+    "salary": 1520000
+  },
+  {
+    "team": "esp",
+    "number": 6,
+    "name": "Forlín",
+    "position": "Defensa",
+    "salary": 1920000
+  },
+  {
+    "team": "esp",
+    "number": 7,
+    "name": "Baena",
+    "position": "Medio",
+    "salary": 2220000
+  },
+  {
+    "team": "esp",
+    "number": 8,
+    "name": "Christian Stuani",
+    "position": "Delantero",
+    "salary": 4520000
+  },
+  {
+    "team": "esp",
+    "number": 9,
+    "name": "Sergio García",
+    "position": "Delantero",
+    "salary": 4120000
+  },
+  {
+    "team": "esp",
+    "number": 10,
+    "name": "Joan Verdú",
+    "position": "Delantero",
+    "salary": 5420000
+  },
+  {
+    "team": "esp",
+    "number": 12,
+    "name": "Samuele Longo",
+    "position": "Medio",
+    "salary": 2620000
+  },
+  {
+    "team": "esp",
+    "number": 13,
+    "name": "Kiko Casilla",
+    "position": "Portero",
+    "salary": 1990000
+  },
+  {
+    "team": "esp",
+    "number": 15,
+    "name": "Héctor Moreno",
+    "position": "Medio",
+    "salary": 3820000
+  },
+  {
+    "team": "esp",
+    "number": 16,
+    "name": "Javi López",
+    "position": "Medio",
+    "salary": 3320000
+  },
+  {
+    "team": "esp",
+    "number": 17,
+    "name": "Petrov",
+    "position": "Defensa",
+    "salary": 2030000
+  },
+  {
+    "team": "esp",
+    "number": 18,
+    "name": "Capdevila",
+    "position": "Defensa",
+    "salary": 2040000
+  },
+  {
+    "team": "esp",
+    "number": 19,
+    "name": "Diego Colotto",
+    "position": "Medio",
+    "salary": 3120000
+  },
+  {
+    "team": "esp",
+    "number": 20,
+    "name": "Simão Sabrosa",
+    "position": "Medio",
+    "salary": 3120000
+  },
+  {
+    "team": "esp",
+    "number": 22,
+    "name": "Wakaso Mubarak",
+    "position": "Medio",
+    "salary": 3220000
+  },
+  {
+    "team": "esp",
+    "number": 23,
+    "name": "Cristian Gómez",
+    "position": "Defensa",
+    "salary": 2090000
+  },
+  {
+    "team": "esp",
+    "number": 24,
+    "name": "Cristian Alfonso",
+    "position": "Defensa",
+    "salary": 2100000
+  },
+  {
+    "team": "esp",
+    "number": 26,
+    "name": "Edgar",
+    "position": "Defensa",
+    "salary": 2120000
+  },
+  {
+    "team": "esp",
+    "number": 27,
+    "name": "Víctor Álvarez",
+    "position": "Defensa",
+    "salary": 2130000
+  },
+  {
+    "team": "esp",
+    "number": 35,
+    "name": "Germán",
+    "position": "Defensa",
+    "salary": 2210000
+  },
+  {
+    "team": "esp",
+    "number": 46,
+    "name": "De Amo",
+    "position": "Defensa",
+    "salary": 2320000
+  },
+  {
+    "team": "gda",
+    "number": 1,
+    "name": "Toño",
+    "position": "Portero",
+    "salary": 2210000
+  },
+  {
+    "team": "gda",
+    "number": 2,
+    "name": "Nyom",
+    "position": "Defensa",
+    "salary": 1650000
+  },
+  {
+    "team": "gda",
+    "number": 3,
+    "name": "Brahimi",
+    "position": "Defensa",
+    "salary": 1660000
+  },
+  {
+    "team": "gda",
+    "number": 4,
+    "name": "Fran Rico",
+    "position": "Defensa",
+    "salary": 1670000
+  },
+  {
+    "team": "gda",
+    "number": 5,
+    "name": "Diego Mainz",
+    "position": "Medio",
+    "salary": 2780000
+  },
+  {
+    "team": "gda",
+    "number": 6,
+    "name": "Guilherme Siqueira",
+    "position": "Medio",
+    "salary": 4380000
+  },
+  {
+    "team": "gda",
+    "number": 7,
+    "name": "Carlos Aranda",
+    "position": "Medio",
+    "salary": 2980000
+  },
+  {
+    "team": "gda",
+    "number": 8,
+    "name": "Iñigo López",
+    "position": "Defensa",
+    "salary": 1710000
+  },
+  {
+    "team": "gda",
+    "number": 9,
+    "name": "Youssef El-Arabi",
+    "position": "Medio",
+    "salary": 4180000
+  },
+  {
+    "team": "gda",
+    "number": 10,
+    "name": "Nolito",
+    "position": "Medio",
+    "salary": 1980000
+  },
+  {
+    "team": "gda",
+    "number": 11,
+    "name": "Dani Benítez",
+    "position": "Medio",
+    "salary": 1280000
+  },
+  {
+    "team": "gda",
+    "number": 12,
+    "name": "Diego Buonanotte",
+    "position": "Medio",
+    "salary": 2480000
+  },
+  {
+    "team": "gda",
+    "number": 13,
+    "name": "Roberto Fernández",
+    "position": "Portero",
+    "salary": 1120000
+  },
+  {
+    "team": "gda",
+    "number": 14,
+    "name": "Mikel Rico",
+    "position": "Medio",
+    "salary": 4080000
+  },
+  {
+    "team": "gda",
+    "number": 15,
+    "name": "Diakhaté",
+    "position": "Defensa",
+    "salary": 1780000
+  },
+  {
+    "team": "gda",
+    "number": 16,
+    "name": "Brayan Angulo",
+    "position": "Medio",
+    "salary": 1680000
+  },
+  {
+    "team": "gda",
+    "number": 17,
+    "name": "Yebda",
+    "position": "Defensa",
+    "salary": 1800000
+  },
+  {
+    "team": "gda",
+    "number": 18,
+    "name": "Lucena",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "gda",
+    "number": 20,
+    "name": "Borja Gómez",
+    "position": "Defensa",
+    "salary": 1830000
+  },
+  {
+    "team": "gda",
+    "number": 21,
+    "name": "Juanma Ortiz",
+    "position": "Defensa",
+    "salary": 1840000
+  },
+  {
+    "team": "gda",
+    "number": 22,
+    "name": "Gabriel Torje",
+    "position": "Medio",
+    "salary": 4080000
+  },
+  {
+    "team": "gda",
+    "number": 24,
+    "name": "Iriney",
+    "position": "Defensa",
+    "salary": 1870000
+  },
+  {
+    "team": "gda",
+    "number": 25,
+    "name": "Odion Ighalo",
+    "position": "Medio",
+    "salary": 3480000
+  },
+  {
+    "team": "gda",
+    "number": 28,
+    "name": "Recio",
+    "position": "Medio",
+    "salary": 2280000
+  },
+  {
+    "team": "gda",
+    "number": 37,
+    "name": "Antonio Puertas",
+    "position": "Defensa",
+    "salary": 2000000
+  },
+  {
+    "team": "get",
+    "number": 1,
+    "name": "Miguel Ángel Moyà",
+    "position": "Portero",
+    "salary": 2750000
+  },
+  {
+    "team": "get",
+    "number": 2,
+    "name": "Alexis Ruano",
+    "position": "Medio",
+    "salary": 3440000
+  },
+  {
+    "team": "get",
+    "number": 3,
+    "name": "Mané",
+    "position": "Medio",
+    "salary": 1540000
+  },
+  {
+    "team": "get",
+    "number": 4,
+    "name": "Miguel Torres",
+    "position": "Defensa",
+    "salary": 1790000
+  },
+  {
+    "team": "get",
+    "number": 5,
+    "name": "Lacen",
+    "position": "Defensa",
+    "salary": 1800000
+  },
+  {
+    "team": "get",
+    "number": 6,
+    "name": "Lopo",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "get",
+    "number": 7,
+    "name": "Álvaro Vázquez",
+    "position": "Medio",
+    "salary": 4140000
+  },
+  {
+    "team": "get",
+    "number": 8,
+    "name": "Sarabia",
+    "position": "Defensa",
+    "salary": 1830000
+  },
+  {
+    "team": "get",
+    "number": 9,
+    "name": "Paco Alcácer",
+    "position": "Medio",
+    "salary": 2740000
+  },
+  {
+    "team": "get",
+    "number": 10,
+    "name": "Gavilán",
+    "position": "Defensa",
+    "salary": 1850000
+  },
+  {
+    "team": "get",
+    "number": 11,
+    "name": "Adrián Colunga",
+    "position": "Medio",
+    "salary": 3540000
+  },
+  {
+    "team": "get",
+    "number": 12,
+    "name": "Fede Fernández",
+    "position": "Medio",
+    "salary": 1640000
+  },
+  {
+    "team": "get",
+    "number": 13,
+    "name": "Jordi Codina",
+    "position": "Portero",
+    "salary": 810000
+  },
+  {
+    "team": "get",
+    "number": 14,
+    "name": "Pedro León",
+    "position": "Medio",
+    "salary": 3440000
+  },
+  {
+    "team": "get",
+    "number": 15,
+    "name": "Rafa",
+    "position": "Defensa",
+    "salary": 1900000
+  },
+  {
+    "team": "get",
+    "number": 16,
+    "name": "Sergio Escudero",
+    "position": "Medio",
+    "salary": 1240000
+  },
+  {
+    "team": "get",
+    "number": 17,
+    "name": "Diego Castro",
+    "position": "Delantero",
+    "salary": 4740000
+  },
+  {
+    "team": "get",
+    "number": 18,
+    "name": "Ángel Lafita",
+    "position": "Medio",
+    "salary": 3040000
+  },
+  {
+    "team": "get",
+    "number": 19,
+    "name": "Abdelaziz Barrada",
+    "position": "Medio",
+    "salary": 4040000
+  },
+  {
+    "team": "get",
+    "number": 20,
+    "name": "Juan Valera",
+    "position": "Medio",
+    "salary": 3340000
+  },
+  {
+    "team": "get",
+    "number": 21,
+    "name": "Míchel",
+    "position": "Defensa",
+    "salary": 1960000
+  },
+  {
+    "team": "get",
+    "number": 22,
+    "name": "Juan Rodríguez",
+    "position": "Medio",
+    "salary": 1540000
+  },
+  {
+    "team": "get",
+    "number": 23,
+    "name": "Borja Fernández",
+    "position": "Medio",
+    "salary": 2040000
+  },
+  {
+    "team": "get",
+    "number": 24,
+    "name": "Hugo Fraile",
+    "position": "Defensa",
+    "salary": 1990000
+  },
+  {
+    "team": "get",
+    "number": 25,
+    "name": "Xavi Torres",
+    "position": "Defensa",
+    "salary": 2000000
+  },
+  {
+    "team": "get",
+    "number": 32,
+    "name": "Postigo",
+    "position": "Defensa",
+    "salary": 2070000
+  },
+  {
+    "team": "get",
+    "number": 33,
+    "name": "Alberto Lopo",
+    "position": "Medio",
+    "salary": 2440000
+  },
+  {
+    "team": "get",
+    "number": 35,
+    "name": "Nadal",
+    "position": "Defensa",
+    "salary": 2100000
+  },
+  {
+    "team": "lev",
+    "number": 1,
+    "name": "Gustavo Munúa",
+    "position": "Portero",
+    "salary": 2700000
+  },
+  {
+    "team": "lev",
+    "number": 4,
+    "name": "David Navarro",
+    "position": "Medio",
+    "salary": 3610000
+  },
+  {
+    "team": "lev",
+    "number": 5,
+    "name": "Héctor Rodas",
+    "position": "Defensa",
+    "salary": 1680000
+  },
+  {
+    "team": "lev",
+    "number": 6,
+    "name": "Vyntra",
+    "position": "Defensa",
+    "salary": 1690000
+  },
+  {
+    "team": "lev",
+    "number": 7,
+    "name": "José Barkero",
+    "position": "Medio",
+    "salary": 4010000
+  },
+  {
+    "team": "lev",
+    "number": 8,
+    "name": "Nabil El Zhar",
+    "position": "Medio",
+    "salary": 3410000
+  },
+  {
+    "team": "lev",
+    "number": 9,
+    "name": "Robert Acquafresca",
+    "position": "Medio",
+    "salary": 1610000
+  },
+  {
+    "team": "lev",
+    "number": 10,
+    "name": "Vicente Iborra",
+    "position": "Medio",
+    "salary": 4010000
+  },
+  {
+    "team": "lev",
+    "number": 11,
+    "name": "Rubén García",
+    "position": "Medio",
+    "salary": 3810000
+  },
+  {
+    "team": "lev",
+    "number": 12,
+    "name": "Juanfran",
+    "position": "Defensa",
+    "salary": 1750000
+  },
+  {
+    "team": "lev",
+    "number": 13,
+    "name": "Keylor Navas",
+    "position": "Portero",
+    "salary": 750000
+  },
+  {
+    "team": "lev",
+    "number": 14,
+    "name": "Dudka",
+    "position": "Defensa",
+    "salary": 1770000
+  },
+  {
+    "team": "lev",
+    "number": 15,
+    "name": "Karabelas",
+    "position": "Defensa",
+    "salary": 1780000
+  },
+  {
+    "team": "lev",
+    "number": 16,
+    "name": "Pedro Ríos",
+    "position": "Medio",
+    "salary": 2610000
+  },
+  {
+    "team": "lev",
+    "number": 17,
+    "name": "Valdo",
+    "position": "Defensa",
+    "salary": 1800000
+  },
+  {
+    "team": "lev",
+    "number": 18,
+    "name": "Ballesteros",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "lev",
+    "number": 19,
+    "name": "Pedro López",
+    "position": "Defensa",
+    "salary": 1820000
+  },
+  {
+    "team": "lev",
+    "number": 20,
+    "name": "Juanlu",
+    "position": "Medio",
+    "salary": 2710000
+  },
+  {
+    "team": "lev",
+    "number": 21,
+    "name": "Míchel Herrero",
+    "position": "Medio",
+    "salary": 4410000
+  },
+  {
+    "team": "lev",
+    "number": 22,
+    "name": "Christian Lell",
+    "position": "Medio",
+    "salary": 2610000
+  },
+  {
+    "team": "lev",
+    "number": 23,
+    "name": "Pape Diop",
+    "position": "Defensa",
+    "salary": 1860000
+  },
+  {
+    "team": "lev",
+    "number": 24,
+    "name": "Simão",
+    "position": "Defensa",
+    "salary": 1870000
+  },
+  {
+    "team": "lev",
+    "number": 26,
+    "name": "Garabato",
+    "position": "Defensa",
+    "salary": 1890000
+  },
+  {
+    "team": "lev",
+    "number": 27,
+    "name": "Roger Martí",
+    "position": "Medio",
+    "salary": 1910000
+  },
+  {
+    "team": "lev",
+    "number": 28,
+    "name": "Iván López",
+    "position": "Defensa",
+    "salary": 1910000
+  },
+  {
+    "team": "mal",
+    "number": 1,
+    "name": "Juan Calatayud",
+    "position": "Portero",
+    "salary": 380000
+  },
+  {
+    "team": "mal",
+    "number": 2,
+    "name": "Hutton",
+    "position": "Defensa",
+    "salary": 1500000
+  },
+  {
+    "team": "mal",
+    "number": 3,
+    "name": "João Victor",
+    "position": "Defensa",
+    "salary": 1510000
+  },
+  {
+    "team": "mal",
+    "number": 4,
+    "name": "Anderson Conceiçao",
+    "position": "Defensa",
+    "salary": 1520000
+  },
+  {
+    "team": "mal",
+    "number": 5,
+    "name": "Pina",
+    "position": "Defensa",
+    "salary": 1530000
+  },
+  {
+    "team": "mal",
+    "number": 6,
+    "name": "Antonio López",
+    "position": "Defensa",
+    "salary": 1540000
+  },
+  {
+    "team": "mal",
+    "number": 7,
+    "name": "Michael Pereira",
+    "position": "Medio",
+    "salary": 2650000
+  },
+  {
+    "team": "mal",
+    "number": 8,
+    "name": "Emilio Nsue",
+    "position": "Medio",
+    "salary": 3450000
+  },
+  {
+    "team": "mal",
+    "number": 9,
+    "name": "Giovani dos Santos",
+    "position": "Medio",
+    "salary": 3750000
+  },
+  {
+    "team": "mal",
+    "number": 10,
+    "name": "Tomer Hemed",
+    "position": "Delantero",
+    "salary": 5650000
+  },
+  {
+    "team": "mal",
+    "number": 11,
+    "name": "Javi Márquez",
+    "position": "Medio",
+    "salary": 2750000
+  },
+  {
+    "team": "mal",
+    "number": 12,
+    "name": "Tissone",
+    "position": "Defensa",
+    "salary": 1600000
+  },
+  {
+    "team": "mal",
+    "number": 13,
+    "name": "Dudu Aouate",
+    "position": "Portero",
+    "salary": 2740000
+  },
+  {
+    "team": "mal",
+    "number": 14,
+    "name": "Geromel",
+    "position": "Medio",
+    "salary": 3050000
+  },
+  {
+    "team": "mal",
+    "number": 16,
+    "name": "Nunes",
+    "position": "Defensa",
+    "salary": 1640000
+  },
+  {
+    "team": "mal",
+    "number": 17,
+    "name": "Pedro Bigas",
+    "position": "Medio",
+    "salary": 2450000
+  },
+  {
+    "team": "mal",
+    "number": 18,
+    "name": "Víctor",
+    "position": "Delantero",
+    "salary": 4750000
+  },
+  {
+    "team": "mal",
+    "number": 19,
+    "name": "Martí",
+    "position": "Defensa",
+    "salary": 1670000
+  },
+  {
+    "team": "mal",
+    "number": 20,
+    "name": "Luna",
+    "position": "Defensa",
+    "salary": 1680000
+  },
+  {
+    "team": "mal",
+    "number": 21,
+    "name": "Alejandro Alfaro",
+    "position": "Medio",
+    "salary": 3650000
+  },
+  {
+    "team": "mal",
+    "number": 22,
+    "name": "Javier Arizmendi",
+    "position": "Medio",
+    "salary": 2550000
+  },
+  {
+    "team": "mal",
+    "number": 23,
+    "name": "Kevin Martínez",
+    "position": "Medio",
+    "salary": 1450000
+  },
+  {
+    "team": "mal",
+    "number": 24,
+    "name": "Fontás",
+    "position": "Defensa",
+    "salary": 1720000
+  },
+  {
+    "team": "mal",
+    "number": 25,
+    "name": "Rubén Miño",
+    "position": "Portero",
+    "salary": 230000
+  },
+  {
+    "team": "mal",
+    "number": 26,
+    "name": "Yeray",
+    "position": "Defensa",
+    "salary": 1740000
+  },
+  {
+    "team": "mal",
+    "number": 27,
+    "name": "Ximo Navarro",
+    "position": "Defensa",
+    "salary": 1750000
+  },
+  {
+    "team": "mal",
+    "number": 30,
+    "name": "Álvaro",
+    "position": "Defensa",
+    "salary": 1780000
+  },
+  {
+    "team": "mal",
+    "number": 35,
+    "name": "Marc Fernández",
+    "position": "Defensa",
+    "salary": 1830000
+  },
+  {
+    "team": "mga",
+    "number": 1,
+    "name": "Carlos Kameni",
+    "position": "Portero",
+    "salary": 500000
+  },
+  {
+    "team": "mga",
+    "number": 2,
+    "name": "Jesús Gámez",
+    "position": "Defensa",
+    "salary": 1720000
+  },
+  {
+    "team": "mga",
+    "number": 3,
+    "name": "Weligton",
+    "position": "Medio",
+    "salary": 3770000
+  },
+  {
+    "team": "mga",
+    "number": 4,
+    "name": "Lugano",
+    "position": "Defensa",
+    "salary": 1740000
+  },
+  {
+    "team": "mga",
+    "number": 5,
+    "name": "Martín Demichelis",
+    "position": "Medio",
+    "salary": 4070000
+  },
+  {
+    "team": "mga",
+    "number": 6,
+    "name": "Ignacio Camacho",
+    "position": "Medio",
+    "salary": 3770000
+  },
+  {
+    "team": "mga",
+    "number": 7,
+    "name": "Joaquín",
+    "position": "Medio",
+    "salary": 4270000
+  },
+  {
+    "team": "mga",
+    "number": 8,
+    "name": "Toulalan",
+    "position": "Defensa",
+    "salary": 1780000
+  },
+  {
+    "team": "mga",
+    "number": 9,
+    "name": "Javier Saviola",
+    "position": "Delantero",
+    "salary": 4170000
+  },
+  {
+    "team": "mga",
+    "number": 10,
+    "name": "Júlio Baptista",
+    "position": "Medio",
+    "salary": 2070000
+  },
+  {
+    "team": "mga",
+    "number": 11,
+    "name": "Seba Fernández",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "mga",
+    "number": 12,
+    "name": "Lucas Piazon",
+    "position": "Defensa",
+    "salary": 1820000
+  },
+  {
+    "team": "mga",
+    "number": 13,
+    "name": "Willy Caballero",
+    "position": "Portero",
+    "salary": 3290000
+  },
+  {
+    "team": "mga",
+    "number": 14,
+    "name": "Pedro Morales",
+    "position": "Medio",
+    "salary": 1270000
+  },
+  {
+    "team": "mga",
+    "number": 16,
+    "name": "Iturra",
+    "position": "Defensa",
+    "salary": 1860000
+  },
+  {
+    "team": "mga",
+    "number": 17,
+    "name": "Duda",
+    "position": "Defensa",
+    "salary": 1870000
+  },
+  {
+    "team": "mga",
+    "number": 18,
+    "name": "Eliseu",
+    "position": "Medio",
+    "salary": 3070000
+  },
+  {
+    "team": "mga",
+    "number": 19,
+    "name": "Portillo",
+    "position": "Defensa",
+    "salary": 1890000
+  },
+  {
+    "team": "mga",
+    "number": 21,
+    "name": "Sergio Sánchez",
+    "position": "Defensa",
+    "salary": 1910000
+  },
+  {
+    "team": "mga",
+    "number": 22,
+    "name": "Francisco Portillo (Isco)",
+    "position": "Medio",
+    "salary": 4970000
+  },
+  {
+    "team": "mga",
+    "number": 23,
+    "name": "Onyewu",
+    "position": "Defensa",
+    "salary": 1930000
+  },
+  {
+    "team": "mga",
+    "number": 24,
+    "name": "Roque Santa Cruz",
+    "position": "Delantero",
+    "salary": 4870000
+  },
+  {
+    "team": "mga",
+    "number": 25,
+    "name": "Antunes",
+    "position": "Medio",
+    "salary": 1570000
+  },
+  {
+    "team": "mga",
+    "number": 30,
+    "name": "Jurado",
+    "position": "Defensa",
+    "salary": 2000000
+  },
+  {
+    "team": "mga",
+    "number": 32,
+    "name": "Pol",
+    "position": "Defensa",
+    "salary": 2020000
+  },
+  {
+    "team": "mga",
+    "number": 45,
+    "name": "Fabrice Olinga",
+    "position": "Medio",
+    "salary": 670000
+  },
+  {
+    "team": "mga",
+    "number": 46,
+    "name": "Álex Portillo",
+    "position": "Defensa",
+    "salary": 2160000
+  },
+  {
+    "team": "osa",
+    "number": 1,
+    "name": "Riesgo",
+    "position": "Defensa",
+    "salary": 1490000
+  },
+  {
+    "team": "osa",
+    "number": 2,
+    "name": "Marc Bertrán",
+    "position": "Defensa",
+    "salary": 1500000
+  },
+  {
+    "team": "osa",
+    "number": 3,
+    "name": "Rubén",
+    "position": "Defensa",
+    "salary": 1510000
+  },
+  {
+    "team": "osa",
+    "number": 4,
+    "name": "Miguel Flaño",
+    "position": "Defensa",
+    "salary": 1520000
+  },
+  {
+    "team": "osa",
+    "number": 5,
+    "name": "Lolo",
+    "position": "Medio",
+    "salary": 2580000
+  },
+  {
+    "team": "osa",
+    "number": 6,
+    "name": "Miguel de las Cuevas",
+    "position": "Medio",
+    "salary": 1780000
+  },
+  {
+    "team": "osa",
+    "number": 7,
+    "name": "Kike Sola",
+    "position": "Delantero",
+    "salary": 4880000
+  },
+  {
+    "team": "osa",
+    "number": 8,
+    "name": "Masoud Shojaei",
+    "position": "Medio",
+    "salary": 1680000
+  },
+  {
+    "team": "osa",
+    "number": 9,
+    "name": "Emiliano Armenteros",
+    "position": "Medio",
+    "salary": 3480000
+  },
+  {
+    "team": "osa",
+    "number": 10,
+    "name": "Puñal",
+    "position": "Defensa",
+    "salary": 1580000
+  },
+  {
+    "team": "osa",
+    "number": 11,
+    "name": "Annan",
+    "position": "Defensa",
+    "salary": 1590000
+  },
+  {
+    "team": "osa",
+    "number": 12,
+    "name": "Joseba Llorente",
+    "position": "Medio",
+    "salary": 2480000
+  },
+  {
+    "team": "osa",
+    "number": 13,
+    "name": "Andrés Fernández",
+    "position": "Portero",
+    "salary": 3260000
+  },
+  {
+    "team": "osa",
+    "number": 14,
+    "name": "Alejandro Arribas",
+    "position": "Medio",
+    "salary": 3780000
+  },
+  {
+    "team": "osa",
+    "number": 15,
+    "name": "Oier",
+    "position": "Defensa",
+    "salary": 1630000
+  },
+  {
+    "team": "osa",
+    "number": 16,
+    "name": "Álvaro Cejudo",
+    "position": "Medio",
+    "salary": 3380000
+  },
+  {
+    "team": "osa",
+    "number": 17,
+    "name": "Nino",
+    "position": "Medio",
+    "salary": 3180000
+  },
+  {
+    "team": "osa",
+    "number": 18,
+    "name": "Manu Onwu",
+    "position": "Medio",
+    "salary": 880000
+  },
+  {
+    "team": "osa",
+    "number": 19,
+    "name": "Nano",
+    "position": "Defensa",
+    "salary": 1670000
+  },
+  {
+    "team": "osa",
+    "number": 20,
+    "name": "Francisco Silva",
+    "position": "Medio",
+    "salary": 1680000
+  },
+  {
+    "team": "osa",
+    "number": 21,
+    "name": "Roberto Torres",
+    "position": "Defensa",
+    "salary": 1690000
+  },
+  {
+    "team": "osa",
+    "number": 22,
+    "name": "David Timor",
+    "position": "Medio",
+    "salary": 1880000
+  },
+  {
+    "team": "osa",
+    "number": 23,
+    "name": "Raoul Loé",
+    "position": "Medio",
+    "salary": 2780000
+  },
+  {
+    "team": "osa",
+    "number": 24,
+    "name": "Damiá",
+    "position": "Defensa",
+    "salary": 1720000
+  },
+  {
+    "team": "osa",
+    "number": 25,
+    "name": "Ricardo",
+    "position": "Defensa",
+    "salary": 1730000
+  },
+  {
+    "team": "osa",
+    "number": 26,
+    "name": "Imanol",
+    "position": "Defensa",
+    "salary": 1740000
+  },
+  {
+    "team": "osa",
+    "number": 27,
+    "name": "Sisi",
+    "position": "Defensa",
+    "salary": 1750000
+  },
+  {
+    "team": "ray",
+    "number": 1,
+    "name": "Rubén",
+    "position": "Portero",
+    "salary": 2490000
+  },
+  {
+    "team": "ray",
+    "number": 2,
+    "name": "Tito Román",
+    "position": "Medio",
+    "salary": 3630000
+  },
+  {
+    "team": "ray",
+    "number": 3,
+    "name": "Casado",
+    "position": "Defensa",
+    "salary": 1790000
+  },
+  {
+    "team": "ray",
+    "number": 4,
+    "name": "Labaka",
+    "position": "Defensa",
+    "salary": 1800000
+  },
+  {
+    "team": "ray",
+    "number": 5,
+    "name": "Gálvez",
+    "position": "Defensa",
+    "salary": 1810000
+  },
+  {
+    "team": "ray",
+    "number": 6,
+    "name": "Rodri",
+    "position": "Defensa",
+    "salary": 1820000
+  },
+  {
+    "team": "ray",
+    "number": 8,
+    "name": "Adrián",
+    "position": "Defensa",
+    "salary": 1840000
+  },
+  {
+    "team": "ray",
+    "number": 9,
+    "name": "José Carlos",
+    "position": "Medio",
+    "salary": 3530000
+  },
+  {
+    "team": "ray",
+    "number": 10,
+    "name": "Piti Medina",
+    "position": "Delantero",
+    "salary": 6430000
+  },
+  {
+    "team": "ray",
+    "number": 11,
+    "name": "Chori Domínguez",
+    "position": "Medio",
+    "salary": 4030000
+  },
+  {
+    "team": "ray",
+    "number": 13,
+    "name": "Dani Giménez",
+    "position": "Portero",
+    "salary": 390000
+  },
+  {
+    "team": "ray",
+    "number": 14,
+    "name": "Arbilla",
+    "position": "Defensa",
+    "salary": 1900000
+  },
+  {
+    "team": "ray",
+    "number": 15,
+    "name": "Raúl Tamudo",
+    "position": "Medio",
+    "salary": 830000
+  },
+  {
+    "team": "ray",
+    "number": 16,
+    "name": "Jordi Amat",
+    "position": "Medio",
+    "salary": 3030000
+  },
+  {
+    "team": "ray",
+    "number": 17,
+    "name": "Trashorras",
+    "position": "Defensa",
+    "salary": 1930000
+  },
+  {
+    "team": "ray",
+    "number": 18,
+    "name": "Javi Fuego",
+    "position": "Defensa",
+    "salary": 1940000
+  },
+  {
+    "team": "ray",
+    "number": 19,
+    "name": "Lass Bangoura",
+    "position": "Medio",
+    "salary": 3830000
+  },
+  {
+    "team": "ray",
+    "number": 20,
+    "name": "Franco Vazquez",
+    "position": "Medio",
+    "salary": 1930000
+  },
+  {
+    "team": "ray",
+    "number": 22,
+    "name": "Jordi",
+    "position": "Defensa",
+    "salary": 1980000
+  },
+  {
+    "team": "ray",
+    "number": 23,
+    "name": "Andrija Delibasic",
+    "position": "Medio",
+    "salary": 4430000
+  },
+  {
+    "team": "ray",
+    "number": 25,
+    "name": "David Cobeño",
+    "position": "Portero",
+    "salary": 900000
+  },
+  {
+    "team": "ray",
+    "number": 29,
+    "name": "Léo Baptistão",
+    "position": "Delantero",
+    "salary": 4430000
+  },
+  {
+    "team": "ray",
+    "number": 31,
+    "name": "Roberto Trashorras",
+    "position": "Medio",
+    "salary": 3630000
+  },
+  {
+    "team": "ray",
+    "number": 32,
+    "name": "Nono",
+    "position": "Defensa",
+    "salary": 2080000
+  },
+  {
+    "team": "ray",
+    "number": 33,
+    "name": "Alberto Perea",
+    "position": "Defensa",
+    "salary": 2090000
+  },
+  {
+    "team": "ray",
+    "number": 38,
+    "name": "Nacho Martínez",
+    "position": "Medio",
+    "salary": 1130000
+  },
+  {
+    "team": "ray",
+    "number": 39,
+    "name": "Isi",
+    "position": "Defensa",
+    "salary": 2150000
+  },
+  {
+    "team": "rma",
+    "number": 1,
+    "name": "Iker Casillas",
+    "position": "Portero",
+    "salary": 2140000
+  },
+  {
+    "team": "rma",
+    "number": 2,
+    "name": "Varane",
+    "position": "Defensa",
+    "salary": 2470000
+  },
+  {
+    "team": "rma",
+    "number": 3,
+    "name": "Pepe",
+    "position": "Medio",
+    "salary": 3410000
+  },
+  {
+    "team": "rma",
+    "number": 4,
+    "name": "Sergio Ramos",
+    "position": "Medio",
+    "salary": 3810000
+  },
+  {
+    "team": "rma",
+    "number": 5,
+    "name": "Fábio Coentrão",
+    "position": "Medio",
+    "salary": 2210000
+  },
+  {
+    "team": "rma",
+    "number": 6,
+    "name": "Sami Khedira",
+    "position": "Medio",
+    "salary": 3210000
+  },
+  {
+    "team": "rma",
+    "number": 7,
+    "name": "Cristiano Ronaldo",
+    "position": "Delantero",
+    "salary": 10610000
+  },
+  {
+    "team": "rma",
+    "number": 8,
+    "name": "Kaká",
+    "position": "Medio",
+    "salary": 2810000
+  },
+  {
+    "team": "rma",
+    "number": 9,
+    "name": "Karim Benzema",
+    "position": "Delantero",
+    "salary": 5510000
+  },
+  {
+    "team": "rma",
+    "number": 10,
+    "name": "Mesut Özil",
+    "position": "Delantero",
+    "salary": 5210000
+  },
+  {
+    "team": "rma",
+    "number": 11,
+    "name": "Ricardo Carvalho",
+    "position": "Defensa",
+    "salary": 2560000
+  },
+  {
+    "team": "rma",
+    "number": 12,
+    "name": "Marcelo",
+    "position": "Defensa",
+    "salary": 2570000
+  },
+  {
+    "team": "rma",
+    "number": 13,
+    "name": "Antonio Adán",
+    "position": "Portero",
+    "salary": 680000
+  },
+  {
+    "team": "rma",
+    "number": 14,
+    "name": "Xabi Alonso",
+    "position": "Defensa",
+    "salary": 2590000
+  },
+  {
+    "team": "rma",
+    "number": 15,
+    "name": "Michael Essien",
+    "position": "Medio",
+    "salary": 2510000
+  },
+  {
+    "team": "rma",
+    "number": 17,
+    "name": "Arbeloa",
+    "position": "Defensa",
+    "salary": 2620000
+  },
+  {
+    "team": "rma",
+    "number": 18,
+    "name": "Raúl Albiol",
+    "position": "Medio",
+    "salary": 2210000
+  },
+  {
+    "team": "rma",
+    "number": 19,
+    "name": "Luka Modric",
+    "position": "Medio",
+    "salary": 4110000
+  },
+  {
+    "team": "rma",
+    "number": 20,
+    "name": "Gonzalo Higuaín",
+    "position": "Delantero",
+    "salary": 5810000
+  },
+  {
+    "team": "rma",
+    "number": 21,
+    "name": "José María Callejón",
+    "position": "Medio",
+    "salary": 3410000
+  },
+  {
+    "team": "rma",
+    "number": 22,
+    "name": "Ángel di María",
+    "position": "Medio",
+    "salary": 4610000
+  },
+  {
+    "team": "rma",
+    "number": 25,
+    "name": "Diego López",
+    "position": "Portero",
+    "salary": 2430000
+  },
+  {
+    "team": "rma",
+    "number": 27,
+    "name": "Nacho",
+    "position": "Defensa",
+    "salary": 2720000
+  },
+  {
+    "team": "rma",
+    "number": 29,
+    "name": "Álvaro Morata",
+    "position": "Medio",
+    "salary": 2010000
+  },
+  {
+    "team": "rma",
+    "number": 33,
+    "name": "Fabinho",
+    "position": "Defensa",
+    "salary": 2780000
+  },
+  {
+    "team": "rma",
+    "number": 34,
+    "name": "José Rodríguez",
+    "position": "Defensa",
+    "salary": 2790000
+  },
+  {
+    "team": "rma",
+    "number": 35,
+    "name": "Jesús",
+    "position": "Defensa",
+    "salary": 2800000
+  },
+  {
+    "team": "rma",
+    "number": 37,
+    "name": "Diego Javier Llorente",
+    "position": "Defensa",
+    "salary": 2820000
+  },
+  {
+    "team": "rma",
+    "number": 38,
+    "name": "Casemiro",
+    "position": "Defensa",
+    "salary": 2830000
+  },
+  {
+    "team": "rso",
+    "number": 1,
+    "name": "Claudio Bravo",
+    "position": "Portero",
+    "salary": 2730000
+  },
+  {
+    "team": "rso",
+    "number": 2,
+    "name": "Carlos Martínez",
+    "position": "Medio",
+    "salary": 3090000
+  },
+  {
+    "team": "rso",
+    "number": 3,
+    "name": "Mikel González",
+    "position": "Medio",
+    "salary": 3890000
+  },
+  {
+    "team": "rso",
+    "number": 4,
+    "name": "Gorka Elustondo",
+    "position": "Medio",
+    "salary": 1290000
+  },
+  {
+    "team": "rso",
+    "number": 5,
+    "name": "Bergara",
+    "position": "Defensa",
+    "salary": 2450000
+  },
+  {
+    "team": "rso",
+    "number": 6,
+    "name": "Iñigo Martínez",
+    "position": "Medio",
+    "salary": 4190000
+  },
+  {
+    "team": "rso",
+    "number": 7,
+    "name": "Antoine Griezmann",
+    "position": "Delantero",
+    "salary": 4990000
+  },
+  {
+    "team": "rso",
+    "number": 8,
+    "name": "Illarramendi",
+    "position": "Defensa",
+    "salary": 2480000
+  },
+  {
+    "team": "rso",
+    "number": 9,
+    "name": "Imanol Agirretxe",
+    "position": "Delantero",
+    "salary": 5990000
+  },
+  {
+    "team": "rso",
+    "number": 10,
+    "name": "Xabi Prieto",
+    "position": "Delantero",
+    "salary": 4890000
+  },
+  {
+    "team": "rso",
+    "number": 11,
+    "name": "Carlos Vela",
+    "position": "Delantero",
+    "salary": 6390000
+  },
+  {
+    "team": "rso",
+    "number": 13,
+    "name": "Eñaut Zubikarai",
+    "position": "Portero",
+    "salary": 900000
+  },
+  {
+    "team": "rso",
+    "number": 14,
+    "name": "Rubén Pardo",
+    "position": "Defensa",
+    "salary": 2540000
+  },
+  {
+    "team": "rso",
+    "number": 15,
+    "name": "Ansotegi",
+    "position": "Defensa",
+    "salary": 2550000
+  },
+  {
+    "team": "rso",
+    "number": 17,
+    "name": "David Zurutuza",
+    "position": "Medio",
+    "salary": 2590000
+  },
+  {
+    "team": "rso",
+    "number": 18,
+    "name": "Chori Castro",
+    "position": "Medio",
+    "salary": 4290000
+  },
+  {
+    "team": "rso",
+    "number": 19,
+    "name": "Cadamuro",
+    "position": "Defensa",
+    "salary": 2590000
+  },
+  {
+    "team": "rso",
+    "number": 20,
+    "name": "José Ángel",
+    "position": "Defensa",
+    "salary": 2600000
+  },
+  {
+    "team": "rso",
+    "number": 21,
+    "name": "Diego Ifrán",
+    "position": "Medio",
+    "salary": 3190000
+  },
+  {
+    "team": "rso",
+    "number": 22,
+    "name": "Estrada",
+    "position": "Defensa",
+    "salary": 2620000
+  },
+  {
+    "team": "rso",
+    "number": 23,
+    "name": "Javi Ros",
+    "position": "Defensa",
+    "salary": 2630000
+  },
+  {
+    "team": "rso",
+    "number": 24,
+    "name": "Alberto de la Bella",
+    "position": "Medio",
+    "salary": 4190000
+  },
+  {
+    "team": "rso",
+    "number": 26,
+    "name": "Royo",
+    "position": "Defensa",
+    "salary": 2660000
+  },
+  {
+    "team": "sev",
+    "number": 1,
+    "name": "Palop",
+    "position": "Portero",
+    "salary": 1550000
+  },
+  {
+    "team": "sev",
+    "number": 2,
+    "name": "Federico Fazio",
+    "position": "Medio",
+    "salary": 3440000
+  },
+  {
+    "team": "sev",
+    "number": 3,
+    "name": "F. Navarro",
+    "position": "Defensa",
+    "salary": 1730000
+  },
+  {
+    "team": "sev",
+    "number": 5,
+    "name": "Cala",
+    "position": "Defensa",
+    "salary": 1750000
+  },
+  {
+    "team": "sev",
+    "number": 6,
+    "name": "Campaña",
+    "position": "Defensa",
+    "salary": 1760000
+  },
+  {
+    "team": "sev",
+    "number": 7,
+    "name": "Jesús Navas",
+    "position": "Defensa",
+    "salary": 1770000
+  },
+  {
+    "team": "sev",
+    "number": 8,
+    "name": "Gary Medel",
+    "position": "Medio",
+    "salary": 4340000
+  },
+  {
+    "team": "sev",
+    "number": 9,
+    "name": "Álvaro Negredo",
+    "position": "Delantero",
+    "salary": 7540000
+  },
+  {
+    "team": "sev",
+    "number": 10,
+    "name": "Perotti",
+    "position": "Defensa",
+    "salary": 1800000
+  },
+  {
+    "team": "sev",
+    "number": 11,
+    "name": "Ivan Rakitic",
+    "position": "Delantero",
+    "salary": 4740000
+  },
+  {
+    "team": "sev",
+    "number": 12,
+    "name": "Maduro",
+    "position": "Defensa",
+    "salary": 1820000
+  },
+  {
+    "team": "sev",
+    "number": 13,
+    "name": "Beto",
+    "position": "Portero",
+    "salary": 1270000
+  },
+  {
+    "team": "sev",
+    "number": 14,
+    "name": "Manu del Moral",
+    "position": "Medio",
+    "salary": 2640000
+  },
+  {
+    "team": "sev",
+    "number": 15,
+    "name": "Piotr Trochowski",
+    "position": "Medio",
+    "salary": 1240000
+  },
+  {
+    "team": "sev",
+    "number": 17,
+    "name": "Javi Hervás",
+    "position": "Defensa",
+    "salary": 1870000
+  },
+  {
+    "team": "sev",
+    "number": 18,
+    "name": "Miroslav Stevanovic",
+    "position": "Defensa",
+    "salary": 1880000
+  },
+  {
+    "team": "sev",
+    "number": 19,
+    "name": "José Antonio Reyes",
+    "position": "Medio",
+    "salary": 3640000
+  },
+  {
+    "team": "sev",
+    "number": 20,
+    "name": "Babá",
+    "position": "Defensa",
+    "salary": 1900000
+  },
+  {
+    "team": "sev",
+    "number": 21,
+    "name": "Cicinho",
+    "position": "Medio",
+    "salary": 2840000
+  },
+  {
+    "team": "sev",
+    "number": 22,
+    "name": "Geoffrey Kondogbia",
+    "position": "Medio",
+    "salary": 3240000
+  },
+  {
+    "team": "sev",
+    "number": 23,
+    "name": "Coke",
+    "position": "Medio",
+    "salary": 2640000
+  },
+  {
+    "team": "sev",
+    "number": 24,
+    "name": "Alberto Botía",
+    "position": "Medio",
+    "salary": 2140000
+  },
+  {
+    "team": "sev",
+    "number": 25,
+    "name": "Julián",
+    "position": "Defensa",
+    "salary": 1950000
+  },
+  {
+    "team": "sev",
+    "number": 28,
+    "name": "Álex Rubio",
+    "position": "Defensa",
+    "salary": 1980000
+  },
+  {
+    "team": "sev",
+    "number": 30,
+    "name": "Bryan Rabello",
+    "position": "Defensa",
+    "salary": 2000000
+  },
+  {
+    "team": "sev",
+    "number": 35,
+    "name": "Alberto Moreno",
+    "position": "Defensa",
+    "salary": 2050000
+  },
+  {
+    "team": "vad",
+    "number": 1,
+    "name": "Jaime",
+    "position": "Portero",
+    "salary": 1190000
+  },
+  {
+    "team": "vad",
+    "number": 2,
+    "name": "Antonio Rukavina",
+    "position": "Medio",
+    "salary": 3920000
+  },
+  {
+    "team": "vad",
+    "number": 4,
+    "name": "Marc Valiente",
+    "position": "Defensa",
+    "salary": 1650000
+  },
+  {
+    "team": "vad",
+    "number": 5,
+    "name": "Sereno",
+    "position": "Defensa",
+    "salary": 1660000
+  },
+  {
+    "team": "vad",
+    "number": 6,
+    "name": "Jesús Rueda",
+    "position": "Defensa",
+    "salary": 1670000
+  },
+  {
+    "team": "vad",
+    "number": 7,
+    "name": "Neira",
+    "position": "Defensa",
+    "salary": 1680000
+  },
+  {
+    "team": "vad",
+    "number": 8,
+    "name": "Javier Baraja",
+    "position": "Medio",
+    "salary": 1520000
+  },
+  {
+    "team": "vad",
+    "number": 9,
+    "name": "Javi Guerra",
+    "position": "Delantero",
+    "salary": 4620000
+  },
+  {
+    "team": "vad",
+    "number": 10,
+    "name": "Óscar González",
+    "position": "Delantero",
+    "salary": 5920000
+  },
+  {
+    "team": "vad",
+    "number": 11,
+    "name": "Daniel Larsson",
+    "position": "Defensa",
+    "salary": 1720000
+  },
+  {
+    "team": "vad",
+    "number": 13,
+    "name": "Dani Hernández",
+    "position": "Portero",
+    "salary": 2250000
+  },
+  {
+    "team": "vad",
+    "number": 14,
+    "name": "Omar",
+    "position": "Defensa",
+    "salary": 1750000
+  },
+  {
+    "team": "vad",
+    "number": 15,
+    "name": "Alberto Bueno",
+    "position": "Medio",
+    "salary": 4020000
+  },
+  {
+    "team": "vad",
+    "number": 16,
+    "name": "Lluís Sastre",
+    "position": "Medio",
+    "salary": 3120000
+  },
+  {
+    "team": "vad",
+    "number": 17,
+    "name": "Peña",
+    "position": "Defensa",
+    "salary": 1780000
+  },
+  {
+    "team": "vad",
+    "number": 18,
+    "name": "Álvaro Rubio",
+    "position": "Defensa",
+    "salary": 1790000
+  },
+  {
+    "team": "vad",
+    "number": 20,
+    "name": "Patrick Ebert",
+    "position": "Medio",
+    "salary": 3520000
+  },
+  {
+    "team": "vad",
+    "number": 22,
+    "name": "Víctor Pérez",
+    "position": "Medio",
+    "salary": 3020000
+  },
+  {
+    "team": "vad",
+    "number": 23,
+    "name": "Rama",
+    "position": "Defensa",
+    "salary": 1840000
+  },
+  {
+    "team": "vad",
+    "number": 24,
+    "name": "Balenziaga",
+    "position": "Defensa",
+    "salary": 1850000
+  },
+  {
+    "team": "vad",
+    "number": 25,
+    "name": "Manucho",
+    "position": "Delantero",
+    "salary": 4120000
+  },
+  {
+    "team": "vad",
+    "number": 27,
+    "name": "Lolo",
+    "position": "Defensa",
+    "salary": 1880000
+  },
+  {
+    "team": "vad",
+    "number": 28,
+    "name": "Rubén Peña",
+    "position": "Defensa",
+    "salary": 1890000
+  },
+  {
+    "team": "vad",
+    "number": 30,
+    "name": "Jorge Pesca",
+    "position": "Defensa",
+    "salary": 1910000
+  },
+  {
+    "team": "vad",
+    "number": 32,
+    "name": "Iván Casado",
+    "position": "Defensa",
+    "salary": 1930000
+  },
+  {
+    "team": "val",
+    "number": 1,
+    "name": "Diego Alves",
+    "position": "Portero",
+    "salary": 2310000
+  },
+  {
+    "team": "val",
+    "number": 3,
+    "name": "Aly Cissokho",
+    "position": "Medio",
+    "salary": 2900000
+  },
+  {
+    "team": "val",
+    "number": 4,
+    "name": "Rami",
+    "position": "Defensa",
+    "salary": 2260000
+  },
+  {
+    "team": "val",
+    "number": 6,
+    "name": "Albelda",
+    "position": "Defensa",
+    "salary": 2280000
+  },
+  {
+    "team": "val",
+    "number": 7,
+    "name": "Jonas",
+    "position": "Delantero",
+    "salary": 6100000
+  },
+  {
+    "team": "val",
+    "number": 8,
+    "name": "Sofiane Feghouli",
+    "position": "Medio",
+    "salary": 3400000
+  },
+  {
+    "team": "val",
+    "number": 9,
+    "name": "Roberto Soldado",
+    "position": "Delantero",
+    "salary": 7700000
+  },
+  {
+    "team": "val",
+    "number": 10,
+    "name": "Éver Banega",
+    "position": "Medio",
+    "salary": 3500000
+  },
+  {
+    "team": "val",
+    "number": 11,
+    "name": "Pablo Piatti",
+    "position": "Medio",
+    "salary": 1900000
+  },
+  {
+    "team": "val",
+    "number": 12,
+    "name": "João Pereira",
+    "position": "Defensa",
+    "salary": 2340000
+  },
+  {
+    "team": "val",
+    "number": 13,
+    "name": "Vicente Guaita",
+    "position": "Portero",
+    "salary": 1290000
+  },
+  {
+    "team": "val",
+    "number": 14,
+    "name": "Barragán",
+    "position": "Defensa",
+    "salary": 2360000
+  },
+  {
+    "team": "val",
+    "number": 15,
+    "name": "Jonathan Viera",
+    "position": "Medio",
+    "salary": 2200000
+  },
+  {
+    "team": "val",
+    "number": 16,
+    "name": "Nelson Valdez",
+    "position": "Medio",
+    "salary": 4300000
+  },
+  {
+    "team": "val",
+    "number": 17,
+    "name": "Andrés Guardado",
+    "position": "Medio",
+    "salary": 3500000
+  },
+  {
+    "team": "val",
+    "number": 18,
+    "name": "Víctor Ruiz",
+    "position": "Defensa",
+    "salary": 2400000
+  },
+  {
+    "team": "val",
+    "number": 20,
+    "name": "Ricardo Costa",
+    "position": "Medio",
+    "salary": 3400000
+  },
+  {
+    "team": "val",
+    "number": 21,
+    "name": "Dani Parejo",
+    "position": "Medio",
+    "salary": 2900000
+  },
+  {
+    "team": "val",
+    "number": 22,
+    "name": "Mathieu",
+    "position": "Defensa",
+    "salary": 2440000
+  },
+  {
+    "team": "val",
+    "number": 23,
+    "name": "Sergio Canales",
+    "position": "Medio",
+    "salary": 1800000
+  },
+  {
+    "team": "val",
+    "number": 24,
+    "name": "Tino Costa",
+    "position": "Medio",
+    "salary": 3500000
+  },
+  {
+    "team": "val",
+    "number": 26,
+    "name": "Felipe",
+    "position": "Defensa",
+    "salary": 2480000
+  },
+  {
+    "team": "val",
+    "number": 28,
+    "name": "Juan Bernat",
+    "position": "Defensa",
+    "salary": 2500000
+  },
+  {
+    "team": "val",
+    "number": 29,
+    "name": "Alex Quintanilla",
+    "position": "Defensa",
+    "salary": 2510000
+  },
+  {
+    "team": "zar",
+    "number": 1,
+    "name": "Roberto",
+    "position": "Portero",
+    "salary": 2820000
+  },
+  {
+    "team": "zar",
+    "number": 2,
+    "name": "Movilla",
+    "position": "Defensa",
+    "salary": 1230000
+  },
+  {
+    "team": "zar",
+    "number": 3,
+    "name": "Paredes",
+    "position": "Defensa",
+    "salary": 1240000
+  },
+  {
+    "team": "zar",
+    "number": 4,
+    "name": "Álvaro González",
+    "position": "Medio",
+    "salary": 3370000
+  },
+  {
+    "team": "zar",
+    "number": 5,
+    "name": "Lanzaro",
+    "position": "Defensa",
+    "salary": 1260000
+  },
+  {
+    "team": "zar",
+    "number": 6,
+    "name": "Rodri",
+    "position": "Medio",
+    "salary": 1570000
+  },
+  {
+    "team": "zar",
+    "number": 7,
+    "name": "Bienvenu",
+    "position": "Defensa",
+    "salary": 1280000
+  },
+  {
+    "team": "zar",
+    "number": 8,
+    "name": "Edu Oriol",
+    "position": "Defensa",
+    "salary": 1290000
+  },
+  {
+    "team": "zar",
+    "number": 9,
+    "name": "Hélder Postiga",
+    "position": "Delantero",
+    "salary": 5970000
+  },
+  {
+    "team": "zar",
+    "number": 10,
+    "name": "Apoño",
+    "position": "Delantero",
+    "salary": 4870000
+  },
+  {
+    "team": "zar",
+    "number": 11,
+    "name": "Paco Montañés",
+    "position": "Medio",
+    "salary": 4670000
+  },
+  {
+    "team": "zar",
+    "number": 12,
+    "name": "Romaric",
+    "position": "Defensa",
+    "salary": 1330000
+  },
+  {
+    "team": "zar",
+    "number": 13,
+    "name": "Leo Franco",
+    "position": "Portero",
+    "salary": 410000
+  },
+  {
+    "team": "zar",
+    "number": 14,
+    "name": "José Fernández",
+    "position": "Defensa",
+    "salary": 1350000
+  },
+  {
+    "team": "zar",
+    "number": 15,
+    "name": "José Mari",
+    "position": "Defensa",
+    "salary": 1360000
+  },
+  {
+    "team": "zar",
+    "number": 16,
+    "name": "Loovens",
+    "position": "Defensa",
+    "salary": 1370000
+  },
+  {
+    "team": "zar",
+    "number": 17,
+    "name": "Babovic",
+    "position": "Defensa",
+    "salary": 1380000
+  },
+  {
+    "team": "zar",
+    "number": 18,
+    "name": "Wilchez",
+    "position": "Defensa",
+    "salary": 1390000
+  },
+  {
+    "team": "zar",
+    "number": 19,
+    "name": "Cristian Sapunaru",
+    "position": "Medio",
+    "salary": 3270000
+  },
+  {
+    "team": "zar",
+    "number": 20,
+    "name": "Franco Zuculini",
+    "position": "Medio",
+    "salary": 1970000
+  },
+  {
+    "team": "zar",
+    "number": 21,
+    "name": "Abraham",
+    "position": "Defensa",
+    "salary": 1420000
+  },
+  {
+    "team": "zar",
+    "number": 22,
+    "name": "Pintér",
+    "position": "Defensa",
+    "salary": 1430000
+  },
+  {
+    "team": "zar",
+    "number": 23,
+    "name": "Javi Álamo",
+    "position": "Defensa",
+    "salary": 1440000
+  },
+  {
+    "team": "zar",
+    "number": 24,
+    "name": "Obradovic",
+    "position": "Defensa",
+    "salary": 1450000
+  },
+  {
+    "team": "zar",
+    "number": 25,
+    "name": "Carmona",
+    "position": "Defensa",
+    "salary": 1460000
+  },
+  {
+    "team": "zar",
+    "number": 26,
+    "name": "Ortí",
+    "position": "Defensa",
+    "salary": 1470000
+  },
+  {
+    "team": "zar",
+    "number": 27,
+    "name": "Héctor",
+    "position": "Defensa",
+    "salary": 1480000
+  },
+  {
+    "team": "zar",
+    "number": 30,
+    "name": "Pablo Alcolea",
+    "position": "Portero",
+    "salary": 350000
+  },
+  {
+    "team": "zar",
+    "number": 31,
+    "name": "Rubén Rochina",
+    "position": "Medio",
+    "salary": 1570000
+  },
+  {
+    "team": "zar",
+    "number": 32,
+    "name": "Víctor Rodríguez",
+    "position": "Medio",
+    "salary": 3370000
+  },
+  {
+    "team": "zar",
+    "number": 40,
+    "name": "Kilian Falcón",
+    "position": "Defensa",
+    "salary": 1610000
+  }
+]

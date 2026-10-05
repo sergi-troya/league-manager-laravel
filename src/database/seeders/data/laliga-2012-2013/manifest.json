@@ -1,0 +1,190 @@
+{
+  "season": "2012-2013",
+  "competition": "Primera División",
+  "source_file": "lliga1213.sql",
+  "source_attribution": "Copyright Abdó Garcia Burguera - 2013",
+  "source_sha256": "9587611e8bb72980c065d9934fac902e7cc84389a1645848472f973504165d03",
+  "base_repository_commit": "48a33a73b23b169fa74c66e3392d2433e2287e4c",
+  "counts": {
+    "cities": 58,
+    "teams": 20,
+    "players": 535,
+    "goalkeepers": 44,
+    "scorers": 239,
+    "matchdays": 38,
+    "games": 380
+  },
+  "games_completed": 351,
+  "games_pending": 29,
+  "total_goals": 1002,
+  "dataset_scope": "Calendario completo; resultados, plantillas y estadísticas según el corte del SQL legado. No constituye una clasificación final de temporada.",
+  "position_mapping": {
+    "mig": "Medio",
+    "porter": "Portero",
+    "defensa": "Defensa",
+    "davanter": "Delantero"
+  },
+  "corrections": [
+    {
+      "table": "jornades",
+      "key": 3,
+      "field": "data",
+      "before": "2013-12-29",
+      "after": "2012-09-02",
+      "reason": "Fecha de referencia de la jornada; el legado contiene una fecha incorrecta.",
+      "sources": [
+        "https://www.bdfutbol.com/es/t/t2012-13.html?tab=results",
+        "https://www.atleticodemadrid.com/clasificacion-primer-equipo-2012-2013"
+      ]
+    },
+    {
+      "table": "jornades",
+      "key": 6,
+      "field": "data",
+      "before": "2002-01-11",
+      "after": "2012-09-30",
+      "reason": "Fecha de referencia de la jornada; el legado contiene una fecha incorrecta.",
+      "sources": [
+        "https://www.bdfutbol.com/es/t/t2012-13.html?tab=results",
+        "https://www.atleticodemadrid.com/clasificacion-primer-equipo-2012-2013"
+      ]
+    },
+    {
+      "table": "jornades",
+      "key": 7,
+      "field": "data",
+      "before": "2013-05-13",
+      "after": "2012-10-07",
+      "reason": "Fecha de referencia de la jornada; el legado contiene una fecha incorrecta.",
+      "sources": [
+        "https://www.bdfutbol.com/es/t/t2012-13.html?tab=results",
+        "https://www.atleticodemadrid.com/clasificacion-primer-equipo-2012-2013"
+      ]
+    },
+    {
+      "table": "jornades",
+      "key": 37,
+      "field": "data",
+      "before": "2013-05-29",
+      "after": "2013-05-26",
+      "reason": "Fecha de referencia de la jornada; el legado contiene una fecha incorrecta.",
+      "sources": [
+        "https://www.bdfutbol.com/es/t/t2012-13.html?tab=results",
+        "https://www.atleticodemadrid.com/clasificacion-primer-equipo-2012-2013"
+      ]
+    },
+    {
+      "table": "equips",
+      "key": "dep",
+      "field": "entrenador",
+      "before": "Fernando Vàquez Pena",
+      "after": "Fernando Vázquez Pena",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://www.rcdeportivo.es/es/protagonistas-plantillas-historicas"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "get",
+      "field": "entrenador",
+      "before": "Luis Garca Plaza",
+      "after": "Luis García Plaza",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://www.laliga.com/noticias/luis-garcia-destituido-en-el-getafe"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "lev",
+      "field": "entrenador",
+      "before": "Juan Ignacio Martínez Jiméez",
+      "after": "Juan Ignacio Martínez Jiménez",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://museo.levanteud.com/tag/juan-ignacio-juan-ignacio-martinez-jimenez/"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "osa",
+      "field": "entrenador",
+      "before": "Jos Luis Mendilíbar",
+      "after": "José Luis Mendilibar",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://www.osasuna.es/anos-2010"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "ray",
+      "field": "marca",
+      "before": "Erre",
+      "after": "Erreà",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [],
+      "inference": true
+    },
+    {
+      "table": "equips",
+      "key": "sev",
+      "field": "estadi",
+      "before": "Ramón Sánchez Pizjuán",
+      "after": "Ramón Sánchez Pizjuán",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://sevillafc.es/actualidad/noticias/el-ramon-sanchez-pizjuan-celebra-su-sesenta-aniversario"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "vad",
+      "field": "entrenador",
+      "before": "Miroslav ?uki?",
+      "after": "Miroslav Djukic",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://www.realvalladolid.es/noticias/en-marcha"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "vad",
+      "field": "estadi",
+      "before": "Estadio Jos Zorrilla",
+      "after": "Estadio José Zorrilla",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [
+        "https://www.realvalladolid.es/noticias/en-marcha"
+      ],
+      "inference": false
+    },
+    {
+      "table": "equips",
+      "key": "zar",
+      "field": "marca",
+      "before": "Telefónica",
+      "after": "Telefónica",
+      "reason": "Restauración editorial de texto dañado en el legado.",
+      "sources": [],
+      "inference": true
+    }
+  ],
+  "files_sha256": {
+    "cities.json": "8ef82e98c1a90563d6ea9345002494857dd41bda54cba6409cced6935e3ed83e",
+    "teams.json": "1a26a180ff60177bb2a54bd6bb4b42df8caf3111a9f66d66b1c4cac697b31447",
+    "players.json": "be763bf8ada5a4e76d69d7e7a0a26d0a06b058b2d7c27b74ce107b4ea8419e06",
+    "goalkeepers.json": "b1c3176c2bbb6e188ed606196f74cdaec314fd056bce3d0ef35edea4e4e7031e",
+    "scorers.json": "162fdf970866baa56ad8d1cdeee1e64647255464859871fbb182bda684428a1d",
+    "matchdays.json": "1e1212c62bc4ea29e711e4650d9a97d0cc9ae1338aad9b696d98f00ebe878b7b",
+    "games.json": "723857a9a9ae149dc79105ed008f3a7106196ecc3a4c38a22d7cd5b17145b69a"
+  }
+}

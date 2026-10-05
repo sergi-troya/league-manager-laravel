@@ -11,29 +11,18 @@ class GameSeeder extends Seeder
 {
     public function run(): void
     {
-        // Jornada, local, visitante, goles local, goles visitante, posesión local.
-        $games = [
-            [1, 'ALF', 'BET', 2, 1, 55],
-            [1, 'GAM', 'DEL', 0, 0, 50],
-            [2, 'ALF', 'GAM', 1, 0, 52],
-            [2, 'BET', 'DEL', 0, 2, 45],
-            [3, 'ALF', 'DEL', null, null, null],
-            [3, 'BET', 'GAM', null, null, null],
-        ];
+        $teamIds = Team::query()->pluck('id', 'code')->all();
+        $matchdayIds = Matchday::query()->pluck('id', 'number')->all();
 
-        foreach ($games as [$number, $homeCode, $awayCode, $homeGoals, $awayGoals, $possession]) {
-            $matchday = Matchday::where('number', $number)->firstOrFail();
-            $homeTeam = Team::where('code', $homeCode)->firstOrFail();
-            $awayTeam = Team::where('code', $awayCode)->firstOrFail();
-
+        foreach (SeasonData::rows('games') as $game) {
             Game::updateOrCreate([
-                'matchday_id' => $matchday->id,
-                'home_team_id' => $homeTeam->id,
-                'away_team_id' => $awayTeam->id,
+                'matchday_id' => SeasonData::resolveId($matchdayIds, $game['matchday_number'], 'matchdays.number'),
+                'home_team_id' => SeasonData::resolveId($teamIds, $game['home_team_code'], 'teams.code'),
+                'away_team_id' => SeasonData::resolveId($teamIds, $game['away_team_code'], 'teams.code'),
             ], [
-                'home_goals' => $homeGoals,
-                'away_goals' => $awayGoals,
-                'home_possession' => $possession,
+                'home_goals' => $game['home_goals'],
+                'away_goals' => $game['away_goals'],
+                'home_possession' => $game['home_possession'],
             ]);
         }
     }

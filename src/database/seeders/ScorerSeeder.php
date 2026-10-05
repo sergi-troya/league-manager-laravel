@@ -10,25 +10,18 @@ class ScorerSeeder extends Seeder
 {
     public function run(): void
     {
-        foreach (['ALF' => 3, 'BET' => 1, 'DEL' => 2] as $code => $goals) {
-            $team = Team::where('code', $code)->firstOrFail();
-            $player = $team->players()->where('number', 9)->firstOrFail();
+        $teamIds = Team::query()->pluck('id', 'code')->all();
+        $playerIds = SeasonData::playerIds();
 
-            Scorer::updateOrCreate(['player_id' => $player->id], [
-                'team' => $team->code,
-                'number' => $player->number,
-                'matches' => 2,
-                'goals' => $goals,
-                'penalties' => 0,
-                'own_goals' => 0,
-                'minutes_per_goal' => intdiv(180, $goals),
-                'goals_starting' => $goals,
-                'goals_substitute' => 0,
-                'points' => null,
-                'victory_goals' => null,
-                'comeback_goals' => null,
-                'percentage' => null,
-            ]);
+        foreach (SeasonData::rows('scorers') as $scorer) {
+            $teamId = SeasonData::resolveId($teamIds, $scorer['team'], 'teams.code');
+            $playerId = SeasonData::resolveId(
+                $playerIds,
+                $teamId . ':' . $scorer['number'],
+                'players(team_id, number)'
+            );
+
+            Scorer::updateOrCreate(['player_id' => $playerId], $scorer);
         }
     }
 }

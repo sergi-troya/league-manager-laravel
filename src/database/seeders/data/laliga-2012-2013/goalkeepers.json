@@ -1,0 +1,266 @@
+[
+  {
+    "team": "dep",
+    "number": 1,
+    "matches": 32,
+    "goals": 63
+  },
+  {
+    "team": "mal",
+    "number": 13,
+    "matches": 32,
+    "goals": 61
+  },
+  {
+    "team": "ath",
+    "number": 1,
+    "matches": 32,
+    "goals": 56
+  },
+  {
+    "team": "cel",
+    "number": 13,
+    "matches": 34,
+    "goals": 50
+  },
+  {
+    "team": "bet",
+    "number": 13,
+    "matches": 30,
+    "goals": 45
+  },
+  {
+    "team": "zar",
+    "number": 1,
+    "matches": 31,
+    "goals": 45
+  },
+  {
+    "team": "ray",
+    "number": 1,
+    "matches": 27,
+    "goals": 44
+  },
+  {
+    "team": "osa",
+    "number": 13,
+    "matches": 35,
+    "goals": 42
+  },
+  {
+    "team": "lev",
+    "number": 1,
+    "matches": 29,
+    "goals": 41
+  },
+  {
+    "team": "val",
+    "number": 1,
+    "matches": 24,
+    "goals": 39
+  },
+  {
+    "team": "get",
+    "number": 1,
+    "matches": 29,
+    "goals": 39
+  },
+  {
+    "team": "mga",
+    "number": 13,
+    "matches": 34,
+    "goals": 38
+  },
+  {
+    "team": "gda",
+    "number": 1,
+    "matches": 24,
+    "goals": 37
+  },
+  {
+    "team": "vad",
+    "number": 13,
+    "matches": 24,
+    "goals": 37
+  },
+  {
+    "team": "rso",
+    "number": 1,
+    "matches": 28,
+    "goals": 36
+  },
+  {
+    "team": "bar",
+    "number": 1,
+    "matches": 29,
+    "goals": 32
+  },
+  {
+    "team": "rma",
+    "number": 25,
+    "matches": 23,
+    "goals": 28
+  },
+  {
+    "team": "atm",
+    "number": 13,
+    "matches": 35,
+    "goals": 28
+  },
+  {
+    "team": "esp",
+    "number": 1,
+    "matches": 16,
+    "goals": 24
+  },
+  {
+    "team": "esp",
+    "number": 13,
+    "matches": 20,
+    "goals": 23
+  },
+  {
+    "team": "sev",
+    "number": 1,
+    "matches": 15,
+    "goals": 19
+  },
+  {
+    "team": "sev",
+    "number": 13,
+    "matches": 12,
+    "goals": 17
+  },
+  {
+    "team": "rma",
+    "number": 1,
+    "matches": 19,
+    "goals": 17
+  },
+  {
+    "team": "gda",
+    "number": 13,
+    "matches": 11,
+    "goals": 16
+  },
+  {
+    "team": "get",
+    "number": 13,
+    "matches": 7,
+    "goals": 13
+  },
+  {
+    "team": "ray",
+    "number": 25,
+    "matches": 8,
+    "goals": 13
+  },
+  {
+    "team": "vad",
+    "number": 1,
+    "matches": 11,
+    "goals": 13
+  },
+  {
+    "team": "val",
+    "number": 13,
+    "matches": 11,
+    "goals": 11
+  },
+  {
+    "team": "rso",
+    "number": 13,
+    "matches": 7,
+    "goals": 9
+  },
+  {
+    "team": "mga",
+    "number": 1,
+    "matches": 3,
+    "goals": 7
+  },
+  {
+    "team": "mal",
+    "number": 1,
+    "matches": 3,
+    "goals": 7
+  },
+  {
+    "team": "zar",
+    "number": 13,
+    "matches": 3,
+    "goals": 6
+  },
+  {
+    "team": "bar",
+    "number": 13,
+    "matches": 6,
+    "goals": 6
+  },
+  {
+    "team": "lev",
+    "number": 13,
+    "matches": 6,
+    "goals": 6
+  },
+  {
+    "team": "bet",
+    "number": 25,
+    "matches": 2,
+    "goals": 5
+  },
+  {
+    "team": "ray",
+    "number": 13,
+    "matches": 2,
+    "goals": 4
+  },
+  {
+    "team": "ath",
+    "number": 13,
+    "matches": 3,
+    "goals": 4
+  },
+  {
+    "team": "bet",
+    "number": 1,
+    "matches": 4,
+    "goals": 4
+  },
+  {
+    "team": "rma",
+    "number": 13,
+    "matches": 3,
+    "goals": 3
+  },
+  {
+    "team": "dep",
+    "number": 13,
+    "matches": 4,
+    "goals": 3
+  },
+  {
+    "team": "mal",
+    "number": 25,
+    "matches": 1,
+    "goals": 2
+  },
+  {
+    "team": "atm",
+    "number": 1,
+    "matches": 1,
+    "goals": 2
+  },
+  {
+    "team": "zar",
+    "number": 30,
+    "matches": 2,
+    "goals": 2
+  },
+  {
+    "team": "cel",
+    "number": 1,
+    "matches": 2,
+    "goals": 2
+  }
+]

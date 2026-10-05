@@ -1,0 +1,3042 @@
+[
+  {
+    "home_team_code": "ath",
+    "away_team_code": "atm",
+    "matchday_number": 21,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "bar",
+    "matchday_number": 33,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "bet",
+    "matchday_number": 1,
+    "home_goals": 3,
+    "away_goals": 5,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "cel",
+    "matchday_number": 15,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "dep",
+    "matchday_number": 13,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 36
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "esp",
+    "matchday_number": 23,
+    "home_goals": 0,
+    "away_goals": 4,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "gda",
+    "matchday_number": 29,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "get",
+    "matchday_number": 9,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "lev",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "mal",
+    "matchday_number": 35,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "mga",
+    "matchday_number": 5,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "osa",
+    "matchday_number": 7,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "ray",
+    "matchday_number": 19,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "rma",
+    "matchday_number": 31,
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_possession": 35
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "rso",
+    "matchday_number": 25,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 42
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "sev",
+    "matchday_number": 11,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 59
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "vad",
+    "matchday_number": 3,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 70
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "val",
+    "matchday_number": 27,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "ath",
+    "away_team_code": "zar",
+    "matchday_number": 17,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 30
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "ath",
+    "matchday_number": 2,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 80
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "bar",
+    "matchday_number": 35,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "bet",
+    "matchday_number": 22,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "cel",
+    "matchday_number": 17,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 81
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "dep",
+    "matchday_number": 15,
+    "home_goals": 6,
+    "away_goals": 0,
+    "home_possession": 94
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "esp",
+    "matchday_number": 25,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "gda",
+    "matchday_number": 31,
+    "home_goals": 5,
+    "away_goals": 0,
+    "home_possession": 73
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "get",
+    "matchday_number": 11,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "lev",
+    "matchday_number": 20,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "mal",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "mga",
+    "matchday_number": 7,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "osa",
+    "matchday_number": 9,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "ray",
+    "matchday_number": 4,
+    "home_goals": 4,
+    "away_goals": 3,
+    "home_possession": 63
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "rma",
+    "matchday_number": 33,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 41
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "rso",
+    "matchday_number": 27,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "sev",
+    "matchday_number": 13,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 68
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "vad",
+    "matchday_number": 5,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 67
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "val",
+    "matchday_number": 29,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "atm",
+    "away_team_code": "zar",
+    "matchday_number": 19,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 80
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "ath",
+    "matchday_number": 14,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 78
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "atm",
+    "matchday_number": 16,
+    "home_goals": 4,
+    "away_goals": 1,
+    "home_possession": 75
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "bet",
+    "matchday_number": 34,
+    "home_goals": 4,
+    "away_goals": 2,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "cel",
+    "matchday_number": 10,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "dep",
+    "matchday_number": 27,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "esp",
+    "matchday_number": 18,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 78
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "gda",
+    "matchday_number": 5,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "get",
+    "matchday_number": 23,
+    "home_goals": 6,
+    "away_goals": 1,
+    "home_possession": 81
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "lev",
+    "matchday_number": 32,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 69
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "mal",
+    "matchday_number": 30,
+    "home_goals": 5,
+    "away_goals": 0,
+    "home_possession": 81
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "mga",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "osa",
+    "matchday_number": 21,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 78
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "ray",
+    "matchday_number": 28,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "rma",
+    "matchday_number": 7,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "rso",
+    "matchday_number": 1,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 78
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "sev",
+    "matchday_number": 25,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 69
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "vad",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "val",
+    "matchday_number": 3,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 69
+  },
+  {
+    "home_team_code": "bar",
+    "away_team_code": "zar",
+    "matchday_number": 12,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "ath",
+    "matchday_number": 20,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "atm",
+    "matchday_number": 3,
+    "home_goals": 2,
+    "away_goals": 4,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "bar",
+    "matchday_number": 15,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "cel",
+    "matchday_number": 35,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "dep",
+    "matchday_number": 33,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "esp",
+    "matchday_number": 5,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "gda",
+    "matchday_number": 11,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "get",
+    "matchday_number": 29,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "lev",
+    "matchday_number": 19,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "mal",
+    "matchday_number": 17,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "mga",
+    "matchday_number": 25,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 61
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "osa",
+    "matchday_number": 27,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "ray",
+    "matchday_number": 2,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "rma",
+    "matchday_number": 13,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "rso",
+    "matchday_number": 7,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "sev",
+    "matchday_number": 31,
+    "home_goals": 3,
+    "away_goals": 3,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "vad",
+    "matchday_number": 23,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "val",
+    "matchday_number": 9,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "bet",
+    "away_team_code": "zar",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "ath",
+    "matchday_number": 34,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 68
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "atm",
+    "matchday_number": 36,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "bar",
+    "matchday_number": 29,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "bet",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "dep",
+    "matchday_number": 9,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "esp",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "gda",
+    "matchday_number": 25,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 29
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "get",
+    "matchday_number": 5,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 61
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "lev",
+    "matchday_number": 14,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "mal",
+    "matchday_number": 12,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 80
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "mga",
+    "matchday_number": 1,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "osa",
+    "matchday_number": 3,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "ray",
+    "matchday_number": 30,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "rma",
+    "matchday_number": 27,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 41
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "rso",
+    "matchday_number": 21,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "sev",
+    "matchday_number": 7,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 62
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "vad",
+    "matchday_number": 18,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 70
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "val",
+    "matchday_number": 23,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "cel",
+    "away_team_code": "zar",
+    "matchday_number": 32,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 77
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "ath",
+    "matchday_number": 32,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 68
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "atm",
+    "matchday_number": 34,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "bar",
+    "matchday_number": 8,
+    "home_goals": 4,
+    "away_goals": 5,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "bet",
+    "matchday_number": 14,
+    "home_goals": 2,
+    "away_goals": 3,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "cel",
+    "matchday_number": 28,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 34
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "esp",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "gda",
+    "matchday_number": 23,
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_possession": 19
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "get",
+    "matchday_number": 3,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 58
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "lev",
+    "matchday_number": 12,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "mal",
+    "matchday_number": 10,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 31
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "mga",
+    "matchday_number": 18,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "osa",
+    "matchday_number": 1,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "ray",
+    "matchday_number": 26,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "rma",
+    "matchday_number": 25,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 41
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "rso",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "sev",
+    "matchday_number": 5,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "vad",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "val",
+    "matchday_number": 21,
+    "home_goals": 2,
+    "away_goals": 3,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "dep",
+    "away_team_code": "zar",
+    "matchday_number": 30,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 77
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "ath",
+    "matchday_number": 4,
+    "home_goals": 3,
+    "away_goals": 3,
+    "home_possession": 42
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "atm",
+    "matchday_number": 6,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "bar",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "bet",
+    "matchday_number": 24,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "cel",
+    "matchday_number": 19,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "dep",
+    "matchday_number": 17,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "gda",
+    "matchday_number": 33,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "get",
+    "matchday_number": 13,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "lev",
+    "matchday_number": 22,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "mal",
+    "matchday_number": 20,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "mga",
+    "matchday_number": 9,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "osa",
+    "matchday_number": 11,
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_possession": 33
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "ray",
+    "matchday_number": 8,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 63
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "rma",
+    "matchday_number": 35,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 44
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "rso",
+    "matchday_number": 29,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "sev",
+    "matchday_number": 15,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "vad",
+    "matchday_number": 26,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 42
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "val",
+    "matchday_number": 31,
+    "home_goals": 3,
+    "away_goals": 3,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "esp",
+    "away_team_code": "zar",
+    "matchday_number": 2,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "ath",
+    "matchday_number": 10,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "atm",
+    "matchday_number": 12,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "bar",
+    "matchday_number": 24,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "bet",
+    "matchday_number": 30,
+    "home_goals": 1,
+    "away_goals": 5,
+    "home_possession": 42
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "cel",
+    "matchday_number": 6,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 81
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "dep",
+    "matchday_number": 4,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "esp",
+    "matchday_number": 14,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 62
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "get",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "lev",
+    "matchday_number": 28,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "mal",
+    "matchday_number": 26,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 77
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "mga",
+    "matchday_number": 34,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "osa",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "ray",
+    "matchday_number": 20,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "rma",
+    "matchday_number": 22,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "rso",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "sev",
+    "matchday_number": 2,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "vad",
+    "matchday_number": 32,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "val",
+    "matchday_number": 18,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "gda",
+    "away_team_code": "zar",
+    "matchday_number": 8,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 71
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "ath",
+    "matchday_number": 28,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "atm",
+    "matchday_number": 30,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "bar",
+    "matchday_number": 4,
+    "home_goals": 1,
+    "away_goals": 4,
+    "home_possession": 31
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "bet",
+    "matchday_number": 10,
+    "home_goals": 2,
+    "away_goals": 4,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "cel",
+    "matchday_number": 24,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "dep",
+    "matchday_number": 22,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "esp",
+    "matchday_number": 32,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "gda",
+    "matchday_number": 19,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "lev",
+    "matchday_number": 8,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "mal",
+    "matchday_number": 6,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "mga",
+    "matchday_number": 14,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "osa",
+    "matchday_number": 16,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "ray",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "rma",
+    "matchday_number": 2,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "rso",
+    "matchday_number": 34,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "sev",
+    "matchday_number": 20,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "vad",
+    "matchday_number": 12,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "val",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "get",
+    "away_team_code": "zar",
+    "matchday_number": 26,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "ath",
+    "matchday_number": 18,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 44
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "atm",
+    "matchday_number": 1,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "bar",
+    "matchday_number": 13,
+    "home_goals": 0,
+    "away_goals": 4,
+    "home_possession": 28
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "bet",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "cel",
+    "matchday_number": 33,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 35
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "dep",
+    "matchday_number": 31,
+    "home_goals": 0,
+    "away_goals": 4,
+    "home_possession": 26
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "esp",
+    "matchday_number": 3,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "gda",
+    "matchday_number": 9,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 44
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "get",
+    "matchday_number": 27,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 58
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "mal",
+    "matchday_number": 15,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "mga",
+    "matchday_number": 23,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "osa",
+    "matchday_number": 25,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 32
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "ray",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "rma",
+    "matchday_number": 11,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 41
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "rso",
+    "matchday_number": 5,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "sev",
+    "matchday_number": 29,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 59
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "vad",
+    "matchday_number": 21,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 67
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "val",
+    "matchday_number": 7,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "lev",
+    "away_team_code": "zar",
+    "matchday_number": 35,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 38
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "ath",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "atm",
+    "matchday_number": 18,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "bar",
+    "matchday_number": 11,
+    "home_goals": 2,
+    "away_goals": 4,
+    "home_possession": 34
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "bet",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "cel",
+    "matchday_number": 31,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 81
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "dep",
+    "matchday_number": 29,
+    "home_goals": 2,
+    "away_goals": 3,
+    "home_possession": 73
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "esp",
+    "matchday_number": 1,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "gda",
+    "matchday_number": 7,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 21
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "get",
+    "matchday_number": 25,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "lev",
+    "matchday_number": 34,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "mga",
+    "matchday_number": 21,
+    "home_goals": 2,
+    "away_goals": 3,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "osa",
+    "matchday_number": 23,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 70
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "ray",
+    "matchday_number": 32,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "rma",
+    "matchday_number": 9,
+    "home_goals": 0,
+    "away_goals": 5,
+    "home_possession": 29
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "rso",
+    "matchday_number": 3,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "sev",
+    "matchday_number": 27,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 59
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "vad",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "val",
+    "matchday_number": 5,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "mal",
+    "away_team_code": "zar",
+    "matchday_number": 14,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 74
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "ath",
+    "matchday_number": 24,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "atm",
+    "matchday_number": 26,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "bar",
+    "matchday_number": 19,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 34
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "bet",
+    "matchday_number": 6,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "cel",
+    "matchday_number": 20,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "dep",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "esp",
+    "matchday_number": 28,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "gda",
+    "matchday_number": 15,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "get",
+    "matchday_number": 33,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "lev",
+    "matchday_number": 4,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 58
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "mal",
+    "matchday_number": 2,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "osa",
+    "matchday_number": 31,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "ray",
+    "matchday_number": 10,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "rma",
+    "matchday_number": 17,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "rso",
+    "matchday_number": 11,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "sev",
+    "matchday_number": 35,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "vad",
+    "matchday_number": 8,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "val",
+    "matchday_number": 13,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 62
+  },
+  {
+    "home_team_code": "mga",
+    "away_team_code": "zar",
+    "matchday_number": 22,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "ath",
+    "matchday_number": 26,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "atm",
+    "matchday_number": 28,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "bar",
+    "matchday_number": 2,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "bet",
+    "matchday_number": 8,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "cel",
+    "matchday_number": 22,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "dep",
+    "matchday_number": 20,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "esp",
+    "matchday_number": 30,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "gda",
+    "matchday_number": 17,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 31
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "get",
+    "matchday_number": 35,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 61
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "lev",
+    "matchday_number": 6,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 78
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "mal",
+    "matchday_number": 4,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 34
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "mga",
+    "matchday_number": 12,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "ray",
+    "matchday_number": 14,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 63
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "rma",
+    "matchday_number": 19,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 44
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "rso",
+    "matchday_number": 32,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "sev",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "vad",
+    "matchday_number": 10,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 61
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "val",
+    "matchday_number": 15,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "osa",
+    "away_team_code": "zar",
+    "matchday_number": 24,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "ath",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "atm",
+    "matchday_number": 23,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "bar",
+    "matchday_number": 9,
+    "home_goals": 0,
+    "away_goals": 5,
+    "home_possession": 25
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "bet",
+    "matchday_number": 21,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 63
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "cel",
+    "matchday_number": 11,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "dep",
+    "matchday_number": 7,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "esp",
+    "matchday_number": 27,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "gda",
+    "matchday_number": 1,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "get",
+    "matchday_number": 18,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "lev",
+    "matchday_number": 17,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 53
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "mal",
+    "matchday_number": 13,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "mga",
+    "matchday_number": 29,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "osa",
+    "matchday_number": 33,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 44
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "rma",
+    "matchday_number": 5,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 38
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "rso",
+    "matchday_number": 31,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 42
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "sev",
+    "matchday_number": 3,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "vad",
+    "matchday_number": 25,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 41
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "val",
+    "matchday_number": 35,
+    "home_goals": 0,
+    "away_goals": 4,
+    "home_possession": 38
+  },
+  {
+    "home_team_code": "ray",
+    "away_team_code": "zar",
+    "matchday_number": 15,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 38
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "ath",
+    "matchday_number": 12,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 80
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "atm",
+    "matchday_number": 14,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "bar",
+    "matchday_number": 26,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "bet",
+    "matchday_number": 32,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "cel",
+    "matchday_number": 8,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 84
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "dep",
+    "matchday_number": 6,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 88
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "esp",
+    "matchday_number": 16,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 62
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "gda",
+    "matchday_number": 3,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 69
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "get",
+    "matchday_number": 21,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 70
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "lev",
+    "matchday_number": 30,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 78
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "mal",
+    "matchday_number": 28,
+    "home_goals": 5,
+    "away_goals": 2,
+    "home_possession": 89
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "mga",
+    "matchday_number": 36,
+    "home_goals": 6,
+    "away_goals": 2,
+    "home_possession": 64
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "osa",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "ray",
+    "matchday_number": 24,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "rso",
+    "matchday_number": 18,
+    "home_goals": 4,
+    "away_goals": 3,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "sev",
+    "matchday_number": 23,
+    "home_goals": 4,
+    "away_goals": 1,
+    "home_possession": 65
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "vad",
+    "matchday_number": 34,
+    "home_goals": 4,
+    "away_goals": 3,
+    "home_possession": 67
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "val",
+    "matchday_number": 1,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "rma",
+    "away_team_code": "zar",
+    "matchday_number": 10,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 86
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "ath",
+    "matchday_number": 6,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 74
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "atm",
+    "matchday_number": 8,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "bar",
+    "matchday_number": 20,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "bet",
+    "matchday_number": 26,
+    "home_goals": 3,
+    "away_goals": 3,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "cel",
+    "matchday_number": 2,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 81
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "dep",
+    "matchday_number": 19,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "esp",
+    "matchday_number": 10,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 59
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "gda",
+    "matchday_number": 35,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "get",
+    "matchday_number": 15,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 58
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "lev",
+    "matchday_number": 24,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "mal",
+    "matchday_number": 22,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 89
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "mga",
+    "matchday_number": 30,
+    "home_goals": 4,
+    "away_goals": 2,
+    "home_possession": 58
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "osa",
+    "matchday_number": 13,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 70
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "ray",
+    "matchday_number": 12,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 72
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "rma",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "sev",
+    "matchday_number": 17,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 59
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "vad",
+    "matchday_number": 28,
+    "home_goals": 4,
+    "away_goals": 1,
+    "home_possession": 73
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "val",
+    "matchday_number": 33,
+    "home_goals": 4,
+    "away_goals": 2,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "rso",
+    "away_team_code": "zar",
+    "matchday_number": 4,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 80
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "ath",
+    "matchday_number": 30,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "atm",
+    "matchday_number": 32,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "bar",
+    "matchday_number": 6,
+    "home_goals": 2,
+    "away_goals": 3,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "bet",
+    "matchday_number": 12,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "cel",
+    "matchday_number": 26,
+    "home_goals": 4,
+    "away_goals": 1,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "dep",
+    "matchday_number": 24,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "esp",
+    "matchday_number": 34,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "gda",
+    "matchday_number": 21,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "get",
+    "matchday_number": 1,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "lev",
+    "matchday_number": 10,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "mal",
+    "matchday_number": 8,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "mga",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 2,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "osa",
+    "matchday_number": 18,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "ray",
+    "matchday_number": 22,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "rma",
+    "matchday_number": 4,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 47
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "rso",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "vad",
+    "matchday_number": 14,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "val",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "sev",
+    "away_team_code": "zar",
+    "matchday_number": 28,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "ath",
+    "matchday_number": 22,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "atm",
+    "matchday_number": 24,
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_possession": 37
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "bar",
+    "matchday_number": 17,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 34
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "bet",
+    "matchday_number": 4,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "cel",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "dep",
+    "matchday_number": 35,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "esp",
+    "matchday_number": 7,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 62
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "gda",
+    "matchday_number": 13,
+    "home_goals": 1,
+    "away_goals": 0,
+    "home_possession": 43
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "get",
+    "matchday_number": 31,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 61
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "lev",
+    "matchday_number": 2,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "mal",
+    "matchday_number": 19,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "mga",
+    "matchday_number": 27,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "osa",
+    "matchday_number": 29,
+    "home_goals": 1,
+    "away_goals": 3,
+    "home_possession": 34
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "ray",
+    "matchday_number": 6,
+    "home_goals": 6,
+    "away_goals": 1,
+    "home_possession": 75
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "rma",
+    "matchday_number": 15,
+    "home_goals": 2,
+    "away_goals": 3,
+    "home_possession": 41
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "rso",
+    "matchday_number": 9,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 48
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "sev",
+    "matchday_number": 33,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 56
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "val",
+    "matchday_number": 11,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 50
+  },
+  {
+    "home_team_code": "vad",
+    "away_team_code": "zar",
+    "matchday_number": 20,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 46
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "ath",
+    "matchday_number": 8,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "atm",
+    "matchday_number": 10,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 52
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "bar",
+    "matchday_number": 22,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 40
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "bet",
+    "matchday_number": 28,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 63
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "cel",
+    "matchday_number": 4,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "dep",
+    "matchday_number": 2,
+    "home_goals": 3,
+    "away_goals": 3,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "esp",
+    "matchday_number": 12,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "gda",
+    "matchday_number": 37,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "get",
+    "matchday_number": 17,
+    "home_goals": 4,
+    "away_goals": 2,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "lev",
+    "matchday_number": 26,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 54
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "mal",
+    "matchday_number": 24,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "mga",
+    "matchday_number": 32,
+    "home_goals": 5,
+    "away_goals": 1,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "osa",
+    "matchday_number": 34,
+    "home_goals": 4,
+    "away_goals": 0,
+    "home_possession": 66
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "ray",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "rma",
+    "matchday_number": 20,
+    "home_goals": 0,
+    "away_goals": 5,
+    "home_possession": 29
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "rso",
+    "matchday_number": 14,
+    "home_goals": 2,
+    "away_goals": 5,
+    "home_possession": 39
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "sev",
+    "matchday_number": 19,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "vad",
+    "matchday_number": 30,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 57
+  },
+  {
+    "home_team_code": "val",
+    "away_team_code": "zar",
+    "matchday_number": 6,
+    "home_goals": 2,
+    "away_goals": 0,
+    "home_possession": 60
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "ath",
+    "matchday_number": 36,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "atm",
+    "matchday_number": 38,
+    "home_goals": null,
+    "away_goals": null,
+    "home_possession": null
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "bar",
+    "matchday_number": 31,
+    "home_goals": 0,
+    "away_goals": 3,
+    "home_possession": 31
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "bet",
+    "matchday_number": 18,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 51
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "cel",
+    "matchday_number": 13,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 27
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "dep",
+    "matchday_number": 11,
+    "home_goals": 5,
+    "away_goals": 3,
+    "home_possession": 36
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "esp",
+    "matchday_number": 21,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 62
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "gda",
+    "matchday_number": 27,
+    "home_goals": 0,
+    "away_goals": 0,
+    "home_possession": 30
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "get",
+    "matchday_number": 7,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 55
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "lev",
+    "matchday_number": 16,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 63
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "mal",
+    "matchday_number": 33,
+    "home_goals": 3,
+    "away_goals": 2,
+    "home_possession": 33
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "mga",
+    "matchday_number": 3,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 49
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "osa",
+    "matchday_number": 5,
+    "home_goals": 3,
+    "away_goals": 1,
+    "home_possession": 76
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "ray",
+    "matchday_number": 34,
+    "home_goals": 3,
+    "away_goals": 0,
+    "home_possession": 69
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "rma",
+    "matchday_number": 29,
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_possession": 44
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "rso",
+    "matchday_number": 23,
+    "home_goals": 1,
+    "away_goals": 2,
+    "home_possession": 45
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "sev",
+    "matchday_number": 9,
+    "home_goals": 2,
+    "away_goals": 1,
+    "home_possession": 59
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "vad",
+    "matchday_number": 1,
+    "home_goals": 0,
+    "away_goals": 1,
+    "home_possession": 61
+  },
+  {
+    "home_team_code": "zar",
+    "away_team_code": "val",
+    "matchday_number": 25,
+    "home_goals": 2,
+    "away_goals": 2,
+    "home_possession": 50
+  }
+]
