@@ -25,6 +25,10 @@
                     <a class="nav-link fw-semibold {{ request()->routeIs('teams*') ? 'active text-dark border-bottom border-2 border-dark' : 'text-secondary' }}" 
                        href="{{ route('teams.index') }}">Teams</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold {{ request()->routeIs('standings.*') ? 'active text-dark border-bottom border-2 border-dark' : 'text-secondary' }}"
+                       href="{{ route('standings.index') }}">Clasificación</a>
+                </li>
             </ul>
         </div>
     </div>

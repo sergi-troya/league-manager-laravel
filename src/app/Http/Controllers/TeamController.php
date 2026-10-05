@@ -55,7 +55,7 @@ class TeamController extends Controller
      */
     public function show(string $id) : View
     {
-        $team = Team::findOrFail($id);
+        $team = Team::with('city')->withCount('players')->findOrFail($id);
         return view('teams.show', compact('team'));
     }
 

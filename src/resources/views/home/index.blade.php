@@ -4,9 +4,9 @@
 
 @section('content')
     <div class="mb-5 text-start">
-        <h1 class="fw-extrabold text-dark display-6 mb-1" style="font-weight: 800; letter-spacing: -1px;">Dashboard General</h1>
+        <h1 class="fw-extrabold text-dark display-6 mb-1" style="font-weight: 800; letter-spacing: -1px;">Dashboard de temporada</h1>
         <p class="text-muted text-uppercase small font-monospace tracking-wider">
-            Temporada Oficial de LaLiga | Estadísticas en vivo
+            LaLiga 2012–2013 | Resumen de los partidos registrados
         </p>
     </div>
 
@@ -30,12 +30,12 @@
         <div class="col-12 col-md-6 col-lg-4">
             <x-main-card 
                 title="Equipos" 
-                subtitle="Ranking de puntuación" 
+                subtitle="Clasificación de temporada" 
                 :main-number="$teams_data['teams_count']"
                 main-label="equipos" 
                 :items="$teams_data['top_teams']"
                 :route="$teams_data['url']" 
-                button-text="Detalles" 
+                button-text="Ver clasificación" 
             />
         </div>
         <div class="col-12 col-md-6 col-lg-4">

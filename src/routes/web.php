@@ -6,10 +6,13 @@ use App\Http\Controllers\CityController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\ScorerController;
+use App\Http\Controllers\StandingsController;
 use Illuminate\Support\Facades\Route;
 
 //Ruta principal (Dashboard)
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
+Route::get('/standings', [StandingsController::class, 'index'])->name('standings.index');
 
 Route::get('scorers', [ScorerController::class, 'index'])->name('scorers.index');
 
