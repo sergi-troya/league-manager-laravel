@@ -1,0 +1,83 @@
+name: Tests & Code Quality
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  laravel-tests:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_DATABASE: league_manager_test
+          MYSQL_USER: league_ci
+          MYSQL_PASSWORD: ci_only_password
+          MYSQL_ROOT_PASSWORD: ci_root_password
+        ports:
+          - 3306:3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=5
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar PHP 8.3
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          extensions: mbstring, xml, ctype, iconv, pdo, pdo_mysql, bcmath, tokenizer
+          coverage: none
+
+      - name: Configurar Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: src/package-lock.json
+
+      - name: Instalar dependencias de Frontend y compilar Vite
+        working-directory: ./src
+        run: |
+          npm ci
+          npm run build
+
+      - name: Instalar dependencias de Composer
+        working-directory: ./src
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - name: Configurar archivo de entorno y generar clave
+        working-directory: ./src
+        run: |
+          cp .env.example .env
+          php artisan key:generate
+
+      - name: Ejecutar migraciones y seeders
+        working-directory: ./src
+        env:
+          DB_CONNECTION: mysql
+          DB_HOST: 127.0.0.1
+          DB_PORT: 3306
+          DB_DATABASE: league_manager_test
+          DB_USERNAME: league_ci
+          DB_PASSWORD: ci_only_password
+        run: php artisan migrate:fresh --seed --force
+
+      - name: Validar compilación de vistas Blade
+        working-directory: ./src
+        run: php artisan view:cache
+
+      - name: Ejecutar Suite de Pruebas
+        working-directory: ./src
+        env:
+          DB_CONNECTION: mysql
+          DB_HOST: 127.0.0.1
+          DB_PORT: 3306
+          DB_DATABASE: league_manager_test
+          DB_USERNAME: league_ci
+          DB_PASSWORD: ci_only_password
+        run: php artisan test --env=testing

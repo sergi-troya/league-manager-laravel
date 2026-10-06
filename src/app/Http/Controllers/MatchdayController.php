@@ -10,10 +10,34 @@ use Illuminate\Http\RedirectResponse;
 
 class MatchdayController extends Controller
 {
-    public function index( Request $request) : View {
-        $matchdayData = Matchday::with('games')->get();
-        $matchday_number = $request->input('matchday') ?? 1;
-        return view('matchday.index', compact('matchdayData', 'matchday_number'));
+    public function index(Request $request)
+    {
+        $matchdays = Matchday::orderBy('number')->get();
+
+        if ($matchdays->isEmpty()) {
+            return view('matchday.index', [
+                'matchdays' => collect(),
+                'currentMatchday' => null,
+                'games' => collect(),
+            ]);
+        }
+
+        $requestedNumber = $request->query('matchday');
+
+        if (empty($requestedNumber)) {
+            $currentMatchday = $matchdays->first();
+        } else {
+            $currentMatchday = $matchdays->firstWhere('number', (int) $requestedNumber);
+
+            if (! $currentMatchday) {
+                return redirect()->route('matchday.index')
+                    ->with('error', 'La jornada solicitada no existe.');
+            }
+        }
+
+        $games = $currentMatchday->games()->with(['homeTeam', 'awayTeam'])->get();
+
+        return view('matchday.index', compact('matchdays', 'currentMatchday', 'games'));
     }
 
     public function editGame(Request $request, Matchday $matchday, Game $game) : View {
@@ -39,7 +63,7 @@ class MatchdayController extends Controller
         ]);
 
         return redirect()
-            ->route('matchday.index', ['matchday' => $matchday->id])
+            ->route('matchday.index', ['matchday' => $game->matchday->number])
             ->with('success', 'Game updated successfully.');
     }
 }

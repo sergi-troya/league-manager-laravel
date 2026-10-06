@@ -22,10 +22,10 @@ Route::get('/matchday/{matchday}/game/{game}/edit', [MatchdayController::class, 
 Route::post('/matchday/{matchday}/game/{game}/update', [MatchdayController::class, 'updateGame'])->name('matchday.game.update');
 
 //Recursos CRUD estándar
-Route::resource('cities', CityController::class);
+Route::resource('cities', CityController::class)->except(['show']); 
 Route::resource('teams', TeamController::class);
 
 //Recursos anidados para jugadores dependientes de un equipo     
 Route::prefix('teams/{team}')->group(function () {
-    Route::resource('/players', PlayerController::class);
+    Route::resource('/players', PlayerController::class)->except(['show']);
 });

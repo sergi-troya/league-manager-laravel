@@ -15,6 +15,13 @@
                     {{ session('success') }}
                 </div>
             @endif
+
+            @if (session('error'))
+                <div class="alert alert-danger alert-dismissible fade show shadow-sm" role="alert">
+                    {{ session('error') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
         </div>
         <div class="card shadow-sm border-0 overflow-hidden">
             <div class="card-body p-0">

@@ -202,7 +202,7 @@ class PhaseTwoTest extends TestCase
             'away_team_id' => null,
             'matchday_id' => null,
         ])->assertSessionHasNoErrors()
-            ->assertRedirect(route('matchday.index', ['matchday' => $matchday->id]));
+            ->assertRedirect(route('matchday.index', ['matchday' => $matchday->number]));
 
         $this->assertDatabaseHas('games', [
             'id' => $game->id,

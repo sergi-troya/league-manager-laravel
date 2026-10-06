@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\View\View;
 use App\Models\City;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Database\QueryException;
 
 class CityController extends Controller
 {
@@ -43,15 +44,6 @@ class CityController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     */
-    public function show(string $id) : View
-    {
-        $city = City::findOrFail($id);
-        return view('cities.show', compact('city'));
-    }
-
-    /**
      * Show the form for editing the specified resource.
      */
     public function edit(string $id) : View
@@ -81,10 +73,25 @@ class CityController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(City $city) : RedirectResponse
+    public function destroy(City $city)
     {
-        $city->delete();
+        if ($city->teams()->exists()) {
+            return redirect()->route('cities.index')
+                ->with('error', 'No se puede eliminar una ciudad con equipos asociados.');
+        }
 
-        return redirect()->route('cities.index')->with('success', 'City deleted successfully.');
+        try {
+            $city->delete();
+
+            return redirect()->route('cities.index')
+                ->with('success', 'Ciudad eliminada correctamente.');
+        } catch (QueryException $e) {
+            if ($e->getCode() === '23000') {
+                return redirect()->route('cities.index')
+                    ->with('error', 'No se puede eliminar la ciudad porque tiene registros vinculados.');
+            }
+
+            throw $e;
+        }
     }
 }

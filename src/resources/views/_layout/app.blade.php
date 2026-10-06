@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Hoja de estilos personalizada -->
     @vite(['resources/css/custom.css', 'resources/js/app.js'])
-    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}?v={{ time() }}">
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
     <title>@hasSection('title') @yield('title') | @endif {{ config('app.name', 'LaLiga') }}</title>
 </head>
-<body class="flex felx-column min-vh-100">
+<body class="d-flex flex-column min-vh-100">
     <header class="bg-white border-bottom py-3 mb-4">
         <div class="container d-flex align-items-center">
             @include('_partial.logo')

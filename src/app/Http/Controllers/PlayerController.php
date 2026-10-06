@@ -63,15 +63,6 @@ class PlayerController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     */
-    public function show(Team $team, string $id) : View
-    {
-        $player = $team->players()->findOrFail($id);
-        return view('players.show', compact('team', 'player'));
-    }
-
-    /**
      * Show the form for editing the specified resource.
      */
     public function edit(Team $team, string $id) : View

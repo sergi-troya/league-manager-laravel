@@ -41,5 +41,8 @@
 /* Ajuste de selectores en formularios */
 .min-w-select {
     min-width: 250px;
+}
 
+.fs-7 {
+    font-size: 0.75rem !important;
 }

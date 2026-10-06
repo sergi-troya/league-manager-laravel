@@ -10,6 +10,7 @@ services:
       - ./src:/var/www/html
     environment:
       COMPOSER_HOME: /tmp/composer
+      XDG_CONFIG_HOME: /tmp
       XDEBUG_MODE: "off"
       # Xdebug apagado por defecto; se activa con XDEBUG_MODE=debug
       XDEBUG_CONFIG: "client_host=host.docker.internal client_port=9003"
@@ -45,7 +46,6 @@ services:
       - --collation-server=utf8mb4_unicode_ci
     volumes:
       - dbdata:/var/lib/mysql
-      - ./docker/scripts:/scripts
     healthcheck:
       test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u root -p$$MYSQL_ROOT_PASSWORD"]
       interval: 5s
