@@ -5,12 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Matchday;
 use App\Models\Game;
+use App\Http\Requests\MatchdayRequest;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
 
 class MatchdayController extends Controller
 {
-    public function index(Request $request)
+    public function index(MatchdayRequest $request)
     {
         $matchdays = Matchday::orderBy('number')->get();
 
@@ -22,17 +23,13 @@ class MatchdayController extends Controller
             ]);
         }
 
-        $requestedNumber = $request->query('matchday');
+        $validated = $request->validated();
+        $requestedNumber = $validated['matchday'] ?? null;
 
-        if (empty($requestedNumber)) {
+        if ($requestedNumber === null) {
             $currentMatchday = $matchdays->first();
         } else {
             $currentMatchday = $matchdays->firstWhere('number', (int) $requestedNumber);
-
-            if (! $currentMatchday) {
-                return redirect()->route('matchday.index')
-                    ->with('error', 'La jornada solicitada no existe.');
-            }
         }
 
         $games = $currentMatchday->games()->with(['homeTeam', 'awayTeam'])->get();

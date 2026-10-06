@@ -2,7 +2,7 @@
 
 @section('title', 'Ciudades')
 @section('content')
-    <div class="container mt5">
+    <div class="container mt-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="h2 text-dark mb-0 fw-bold">Cities Index</h1>
             <a href="{{ route('cities.create') }}" class="btn btn-dark px-4 shadow-sm">
